@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Träningsrapport – med kundinfo</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+    <h1>Träningsrapport – välj kund</h1>
+
+    <label for="year-select"><strong>Välj år:</strong></label>
+    <select id="year-select" onchange="updateChart()" style="margin-right: 30px;">
+        <option value="2025" selected>2025</option>
+        <option value="2024">2024</option>
+    </select>
+
+    <label for="kund-select"><strong>Sök kund:</strong></label>
+    <input list="kundlista" id="kund-select" onchange="updateChart()" placeholder="Skriv t.ex. K0031">
+    <datalist id="kundlista"></datalist>
+
+    <div id="chart" style="width: 90%; height: 500px; margin-top: 30px;"></div>
+    <div id="customer-info" style="margin-top: 30px; padding: 15px; background: #f4f4f4; border: 1px solid #ccc;"></div>
+
+    <script>
+        const besokUrl = "https://raw.githubusercontent.com/novia-linda/ai-kursen/refs/heads/main/besoksdata_medlemskap_med_passinfo.csv";
+        const kundUrl = "https://raw.githubusercontent.com/novia-linda/ai-kursen/refs/heads/main/kundlista.csv";
+        let allData = [];
+        let kundinfo = new Map();
+
+        Papa.parse(kundUrl, {
+            download: true,
+            header: true,
+            dynamicTyping: true,
+            complete: function(results) {
+                results.data.forEach(row => {
+                    kundinfo.set(row.KundID, row);
+                    const opt = document.createElement("option");
+                    opt.value = row.KundID;
+                    document.getElementById("kundlista").appendChild(opt);
+                });
+                loadBesokData();
+            }
+        });
+
+        function loadBesokData() {
+            Papa.parse(besokUrl, {
+                download: true,
+                header: true,
+                dynamicTyping: true,
+                complete: function(results) {
+                    allData = results.data;
+                    document.getElementById("kund-select").value = "K0001";
+                    updateChart();
+                }
+            });
+        }
+
+        function updateChart() {
+            const kundID = document.getElementById("kund-select").value;
+            const year = document.getElementById("year-select").value;
+            const kundData = allData.filter(row =>
+                row.KundID === kundID && row.Ar.toString() === year
+            );
+            if (kundData.length === 0) return;
+
+            const gymMap = new Map();
+            const passMap = new Map();
+
+            kundData.forEach(row => {
+                const key = row.Manadsnamn;
+                const isPass = row.Besokstyp === "PASS";
+                const mapToUse = isPass ? passMap : gymMap;
+                mapToUse.set(key, (mapToUse.get(key) || 0) + 1);
+            });
+
+            let xLabels = Array.from(new Set([...gymMap.keys(), ...passMap.keys()]));
+            const order = ["Januari", "Februari", "Mars", "April", "Maj", "Juni",
+                           "Juli", "Augusti", "September", "Oktober", "November", "December"];
+            xLabels.sort((a, b) => order.indexOf(a) - order.indexOf(b));
+
+            const gymY = xLabels.map(x => gymMap.get(x) || 0);
+            const passY = xLabels.map(x => passMap.get(x) || 0);
+
+            const trace1 = {
+                x: xLabels,
+                y: gymY,
+                type: 'bar',
+                name: 'Gymbesök'
+            };
+
+            const trace2 = {
+                x: xLabels,
+                y: passY,
+                type: 'bar',
+                name: 'Ledd pass'
+            };
+
+            const layout = {
+                barmode: 'group',
+                title: `Månadsvy – Kund: ${kundID}`,
+                xaxis: { title: 'Månad' },
+                yaxis: { title: 'Antal besök' }
+            };
+
+            Plotly.newPlot('chart', [trace1, trace2], layout);
+
+            // Uppdatera kundinforuta
+            const infoBox = document.getElementById("customer-info");
+            const kundRow = kundinfo.get(kundID) || {};
+            const kundBesok = kundData.length;
+            const passbesok = kundData.filter(r => r.Besokstyp === "PASS").length;
+            const gymbesok = kundBesok - passbesok;
+            const unikaPass = [...new Set(kundData.map(r => r.Passnamn).filter(p => p))];
+            const instruktorer = [...new Set(kundData.map(r => r.Instruktor).filter(i => i))];
+
+            infoBox.innerHTML = `
+                <strong>Kundinformation ($2025)</strong><br>
+                Namn: ${kundRow.Namn || '–'}<br>
+                Medlemskap: ${kundRow.Medlemskap || '–'}<br>
+                Totalt antal besök: ${kundBesok}<br>
+                - Gymbesök: ${gymbesok}<br>
+                - Ledd pass: ${passbesok}<br>
+                Unika pass: ${unikaPass.join(", ") || "–"}<br>
+                Instruktörer: ${instruktorer.join(", ") || "–"}
+            `;
+        }
+    </script>
+</body>
+</html>
