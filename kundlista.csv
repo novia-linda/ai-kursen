@@ -1,0 +1,951 @@
+KundID,Medlemskap,Ålderskategori,Kön,Hemkommun,Träningsmål,Medlem sedan (mm-yyyy)
+K0001,Flex,<25,Man,Korsholm,Bli starkare,08-2021
+K0002,Student,<25,Kvinna,Korsholm,Bygga muskler,09-2025
+K0003,Morning,65+,Man,Korsholm,Öka kondition,03-2024
+K0004,Premium,25-44,Man,Nykarleby,Gå ner i vikt,07-2023
+K0005,Basic,45-64,Kvinna,Vasa,Gå ner i vikt,01-2020
+K0006,Flex,25-44,Kvinna,Vasa,Bli starkare,02-2020
+K0007,Basic,45-64,Man,Vasa,Bygga muskler,05-2019
+K0008,Basic,25-44,Kvinna,Vasa,Bygga muskler,01-2025
+K0009,Flex,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,04-2023
+K0010,Flex,25-44,Man,Vasa,Gå ner i vikt,01-2024
+K0011,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,03-2019
+K0012,Premium,25-44,Kvinna,Laihela,Bli starkare,11-2025
+K0013,Premium,25-44,Man,Vasa,Bygga muskler,01-2025
+K0014,Premium,25-44,Man,Korsholm,Hälsa & energi,10-2020
+K0015,Premium,45-64,Kvinna,Vasa,Bygga muskler,07-2020
+K0016,Flex,45-64,Kvinna,Korsholm,Gå ner i vikt,04-2020
+K0017,Senior,65+,Kvinna,Korsholm,Rörlighet & återhämtning,11-2020
+K0018,Morning,45-64,Man,Vasa,Bli starkare,09-2022
+K0019,Basic,25-44,Inte angivet,Vasa,Rörlighet & återhämtning,11-2021
+K0020,Premium,65+,Man,Vasa,Öka kondition,05-2021
+K0021,Basic,25-44,Man,Vasa,Bli starkare,02-2023
+K0022,Student,<25,Man,Korsholm,Gå ner i vikt,12-2019
+K0023,Morning,25-44,Man,Vasa,Rörlighet & återhämtning,01-2021
+K0024,Flex,45-64,Kvinna,Vasa,Rörlighet & återhämtning,08-2021
+K0025,Morning,25-44,Man,Vasa,Öka kondition,03-2022
+K0026,Premium,25-44,Man,Vasa,Bygga muskler,10-2024
+K0027,Senior,65+,Man,Vasa,Hälsa & energi,03-2020
+K0028,Flex,25-44,Man,Korsholm,Rörlighet & återhämtning,08-2022
+K0029,Flex,45-64,Man,Vasa,Bli starkare,03-2023
+K0030,Flex,25-44,Kvinna,Vasa,Hälsa & energi,04-2019
+K0031,Student,<25,Man,Närpes,Bygga muskler,04-2023
+K0032,Flex,45-64,Man,Vasa,Bli starkare,03-2020
+K0033,Flex,25-44,Man,Vasa,Öka kondition,06-2019
+K0034,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,09-2025
+K0035,Morning,45-64,Man,Korsholm,Bygga muskler,11-2025
+K0036,Morning,<25,Kvinna,Korsholm,Bli starkare,09-2024
+K0037,Premium,25-44,Kvinna,Vasa,Bli starkare,06-2021
+K0038,Flex,25-44,Kvinna,Vasa,Hälsa & energi,09-2019
+K0039,Premium,45-64,Inte angivet,Vasa,Bli starkare,02-2024
+K0040,Flex,45-64,Man,Vasa,Bli starkare,02-2022
+K0041,Premium,45-64,Man,Pedersöre,Rörlighet & återhämtning,01-2020
+K0042,Flex,45-64,Man,Nykarleby,Gå ner i vikt,07-2022
+K0043,Basic,65+,Man,Vasa,Hälsa & energi,03-2019
+K0044,Student,<25,Kvinna,Vasa,Bygga muskler,06-2025
+K0045,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,09-2020
+K0046,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,07-2023
+K0047,Premium,25-44,Kvinna,Vasa,Hälsa & energi,07-2021
+K0048,Basic,45-64,Kvinna,Vasa,Öka kondition,07-2022
+K0049,Premium,25-44,Man,Korsholm,Bygga muskler,03-2023
+K0050,Basic,25-44,Man,Jakobstad,Rörlighet & återhämtning,03-2020
+K0051,Flex,45-64,Man,Vasa,Bygga muskler,11-2025
+K0052,Flex,<25,Man,Vasa,Bygga muskler,06-2024
+K0053,Basic,25-44,Man,Vasa,Öka kondition,08-2025
+K0054,Basic,25-44,Man,Korsholm,Bli starkare,04-2025
+K0055,Basic,45-64,Kvinna,Korsholm,Bygga muskler,01-2023
+K0056,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,05-2025
+K0057,Premium,45-64,Man,Vasa,Bli starkare,10-2019
+K0058,Premium,<25,Kvinna,Pedersöre,Bygga muskler,08-2020
+K0059,Flex,65+,Kvinna,Vasa,Öka kondition,04-2019
+K0060,Basic,65+,Kvinna,Vasa,Öka kondition,02-2021
+K0061,Senior,65+,Man,Vasa,Hälsa & energi,06-2021
+K0062,Student,<25,Kvinna,Vasa,Gå ner i vikt,12-2020
+K0063,Premium,45-64,Kvinna,Jakobstad,Hälsa & energi,01-2025
+K0064,Flex,45-64,Kvinna,Vörå,Rörlighet & återhämtning,07-2021
+K0065,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,11-2020
+K0066,Flex,25-44,Kvinna,Korsholm,Öka kondition,11-2022
+K0067,Premium,25-44,Man,Korsholm,Gå ner i vikt,03-2020
+K0068,Basic,45-64,Man,Vasa,Gå ner i vikt,07-2024
+K0069,Flex,45-64,Man,Vasa,Bygga muskler,07-2019
+K0070,Premium,45-64,Kvinna,Vasa,Bli starkare,01-2026
+K0071,Basic,25-44,Man,Laihela,Hälsa & energi,05-2024
+K0072,Morning,65+,Man,Malax,Hälsa & energi,05-2020
+K0073,Premium,25-44,Man,Korsholm,Bygga muskler,01-2019
+K0074,Senior,65+,Kvinna,Korsholm,Öka kondition,07-2024
+K0075,Student,<25,Kvinna,Vasa,Bygga muskler,01-2024
+K0076,Premium,25-44,Man,Vasa,Öka kondition,06-2024
+K0077,Basic,25-44,Man,Korsholm,Bygga muskler,04-2024
+K0078,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,06-2019
+K0079,Morning,65+,Man,Korsholm,Rörlighet & återhämtning,07-2021
+K0080,Student,<25,Man,Korsholm,Öka kondition,10-2019
+K0081,Basic,25-44,Man,Vasa,Rehab/skadeförebyggande,01-2025
+K0082,Premium,<25,Man,Vasa,Bygga muskler,09-2023
+K0083,Basic,25-44,Kvinna,Korsholm,Öka kondition,03-2021
+K0084,Premium,25-44,Kvinna,Vörå,Öka kondition,07-2019
+K0085,Flex,45-64,Kvinna,Närpes,Bygga muskler,03-2021
+K0086,Premium,45-64,Man,Vasa,Bygga muskler,08-2021
+K0087,Student,<25,Inte angivet,Vasa,Hälsa & energi,03-2024
+K0088,Student,<25,Man,Vasa,Stresshantering,07-2023
+K0089,Premium,45-64,Kvinna,Vasa,Bygga muskler,05-2025
+K0090,Morning,45-64,Kvinna,Vasa,Bygga muskler,05-2022
+K0091,Basic,65+,Kvinna,Vasa,Hälsa & energi,10-2019
+K0092,Morning,45-64,Kvinna,Korsholm,Gå ner i vikt,01-2024
+K0093,Flex,45-64,Kvinna,Korsholm,Bygga muskler,05-2024
+K0094,Premium,65+,Inte angivet,Vasa,Hälsa & energi,04-2023
+K0095,Premium,<25,Kvinna,Vasa,Bygga muskler,09-2024
+K0096,Premium,45-64,Kvinna,Vasa,Bygga muskler,11-2022
+K0097,Flex,<25,Man,Vasa,Gå ner i vikt,09-2022
+K0098,Premium,25-44,Man,Korsholm,Bli starkare,05-2022
+K0099,Basic,25-44,Kvinna,Korsholm,Hälsa & energi,02-2019
+K0100,Premium,25-44,Man,Korsholm,Gå ner i vikt,12-2019
+K0101,Basic,65+,Kvinna,Vasa,Bygga muskler,03-2019
+K0102,Premium,45-64,Man,Vörå,Bygga muskler,10-2023
+K0103,Morning,25-44,Man,Korsholm,Öka kondition,03-2021
+K0104,Basic,45-64,Man,Korsholm,Bygga muskler,06-2022
+K0105,Basic,25-44,Man,Korsholm,Gå ner i vikt,05-2025
+K0106,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,01-2021
+K0107,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,09-2021
+K0108,Basic,25-44,Kvinna,Vasa,Bygga muskler,03-2024
+K0109,Premium,25-44,Kvinna,Korsholm,Bli starkare,11-2020
+K0110,Flex,<25,Man,Vasa,Öka kondition,07-2019
+K0111,Student,<25,Man,Vasa,Hälsa & energi,01-2021
+K0112,Flex,25-44,Kvinna,Vasa,Rörlighet & återhämtning,02-2020
+K0113,Senior,65+,Kvinna,Vasa,Stresshantering,06-2025
+K0114,Flex,<25,Man,Vasa,Gå ner i vikt,09-2024
+K0115,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,02-2023
+K0116,Morning,45-64,Man,Korsholm,Gå ner i vikt,03-2025
+K0117,Basic,25-44,Man,Vasa,Öka kondition,07-2024
+K0118,Premium,45-64,Kvinna,Korsholm,Bli starkare,07-2020
+K0119,Student,<25,Kvinna,Korsholm,Gå ner i vikt,04-2025
+K0120,Basic,25-44,Kvinna,Laihela,Bygga muskler,08-2022
+K0121,Basic,25-44,Man,Korsholm,Gå ner i vikt,08-2024
+K0122,Flex,45-64,Kvinna,Vasa,Bli starkare,05-2025
+K0123,Student,<25,Man,Vasa,Bygga muskler,04-2021
+K0124,Premium,25-44,Kvinna,Korsholm,Hälsa & energi,12-2019
+K0125,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,08-2020
+K0126,Basic,25-44,Man,Korsholm,Bli starkare,11-2021
+K0127,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,09-2024
+K0128,Premium,45-64,Kvinna,Vasa,Bygga muskler,03-2025
+K0129,Morning,25-44,Inte angivet,Vasa,Gå ner i vikt,01-2019
+K0130,Morning,65+,Kvinna,Korsholm,Öka kondition,08-2022
+K0131,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,12-2021
+K0132,Student,<25,Man,Korsholm,Öka kondition,07-2020
+K0133,Flex,25-44,Man,Korsholm,Bli starkare,11-2019
+K0134,Premium,25-44,Man,Vasa,Bli starkare,09-2021
+K0135,Flex,25-44,Kvinna,Vasa,Bli starkare,09-2025
+K0136,Premium,65+,Man,Närpes,Rörlighet & återhämtning,08-2021
+K0137,Morning,45-64,Man,Vasa,Gå ner i vikt,09-2022
+K0138,Morning,25-44,Man,Vasa,Hälsa & energi,12-2023
+K0139,Morning,45-64,Man,Korsholm,Gå ner i vikt,07-2021
+K0140,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,11-2025
+K0141,Student,<25,Kvinna,Korsholm,Bygga muskler,10-2025
+K0142,Basic,25-44,Man,Vasa,Gå ner i vikt,08-2020
+K0143,Basic,45-64,Man,Nykarleby,Öka kondition,05-2022
+K0144,Basic,25-44,Kvinna,Korsholm,Öka kondition,12-2020
+K0145,Premium,45-64,Kvinna,Pedersöre,Bygga muskler,05-2021
+K0146,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,03-2019
+K0147,Premium,25-44,Kvinna,Korsholm,Öka kondition,08-2023
+K0148,Flex,25-44,Man,Vasa,Gå ner i vikt,07-2022
+K0149,Basic,25-44,Man,Korsholm,Stresshantering,04-2019
+K0150,Basic,<25,Kvinna,Vasa,Bli starkare,11-2020
+K0151,Basic,65+,Kvinna,Vasa,Stresshantering,05-2025
+K0152,Morning,45-64,Man,Korsholm,Öka kondition,09-2020
+K0153,Basic,65+,Man,Korsholm,Hälsa & energi,12-2019
+K0154,Basic,65+,Man,Korsholm,Gå ner i vikt,04-2022
+K0155,Basic,45-64,Inte angivet,Vasa,Öka kondition,12-2025
+K0156,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,08-2020
+K0157,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,06-2023
+K0158,Premium,25-44,Man,Korsholm,Bli starkare,08-2024
+K0159,Basic,25-44,Kvinna,Nykarleby,Öka kondition,07-2020
+K0160,Basic,25-44,Man,Korsholm,Hälsa & energi,01-2024
+K0161,Premium,25-44,Kvinna,Korsholm,Gå ner i vikt,12-2021
+K0162,Student,<25,Man,Korsholm,Öka kondition,06-2023
+K0163,Flex,25-44,Man,Korsholm,Hälsa & energi,06-2023
+K0164,Morning,65+,Kvinna,Vasa,Rörlighet & återhämtning,10-2022
+K0165,Basic,25-44,Man,Vasa,Hälsa & energi,08-2019
+K0166,Student,<25,Kvinna,Vasa,Rehab/skadeförebyggande,12-2024
+K0167,Flex,25-44,Man,Korsholm,Bli starkare,04-2021
+K0168,Basic,25-44,Kvinna,Vasa,Öka kondition,03-2020
+K0169,Basic,45-64,Kvinna,Korsholm,Gå ner i vikt,04-2019
+K0170,Basic,25-44,Kvinna,Korsholm,Hälsa & energi,01-2023
+K0171,Basic,45-64,Man,Vasa,Öka kondition,08-2023
+K0172,Senior,65+,Kvinna,Korsholm,Hälsa & energi,02-2019
+K0173,Premium,45-64,Man,Vasa,Stresshantering,12-2022
+K0174,Senior,65+,Kvinna,Vörå,Bli starkare,05-2020
+K0175,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,05-2023
+K0176,Premium,45-64,Kvinna,Vasa,Bygga muskler,06-2020
+K0177,Premium,25-44,Kvinna,Malax,Gå ner i vikt,03-2024
+K0178,Premium,25-44,Man,Närpes,Öka kondition,02-2022
+K0179,Morning,25-44,Man,Vasa,Gå ner i vikt,08-2025
+K0180,Premium,25-44,Kvinna,Korsholm,Gå ner i vikt,03-2020
+K0181,Premium,45-64,Kvinna,Vörå,Hälsa & energi,10-2021
+K0182,Flex,25-44,Man,Vasa,Bli starkare,10-2019
+K0183,Premium,<25,Man,Vasa,Gå ner i vikt,08-2025
+K0184,Basic,45-64,Man,Vasa,Gå ner i vikt,02-2025
+K0185,Basic,45-64,Man,Korsholm,Rörlighet & återhämtning,09-2020
+K0186,Basic,25-44,Kvinna,Vörå,Gå ner i vikt,07-2023
+K0187,Premium,25-44,Man,Närpes,Öka kondition,12-2024
+K0188,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,12-2022
+K0189,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,07-2022
+K0190,Student,<25,Kvinna,Vasa,Öka kondition,09-2020
+K0191,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,08-2019
+K0192,Basic,25-44,Kvinna,Vasa,Öka kondition,04-2025
+K0193,Morning,25-44,Man,Nykarleby,Öka kondition,05-2025
+K0194,Premium,45-64,Kvinna,Vasa,Hälsa & energi,10-2023
+K0195,Flex,<25,Man,Vasa,Öka kondition,05-2021
+K0196,Basic,25-44,Man,Vasa,Öka kondition,04-2021
+K0197,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,12-2023
+K0198,Senior,65+,Man,Vasa,Rörlighet & återhämtning,03-2025
+K0199,Basic,45-64,Kvinna,Pedersöre,Bli starkare,03-2025
+K0200,Student,<25,Man,Korsholm,Hälsa & energi,07-2024
+K0201,Student,<25,Man,Korsholm,Hälsa & energi,07-2023
+K0202,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,09-2019
+K0203,Basic,25-44,Man,Korsholm,Bygga muskler,01-2020
+K0204,Basic,45-64,Man,Korsholm,Bygga muskler,04-2025
+K0205,Basic,45-64,Man,Vasa,Bli starkare,02-2023
+K0206,Basic,65+,Man,Vasa,Hälsa & energi,01-2019
+K0207,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,09-2019
+K0208,Basic,25-44,Man,Kristinestad,Gå ner i vikt,07-2023
+K0209,Basic,25-44,Man,Vasa,Bygga muskler,01-2019
+K0210,Morning,25-44,Kvinna,Vasa,Bli starkare,02-2020
+K0211,Basic,25-44,Kvinna,Laihela,Öka kondition,09-2022
+K0212,Student,<25,Kvinna,Korsholm,Gå ner i vikt,11-2023
+K0213,Flex,45-64,Man,Vasa,Rörlighet & återhämtning,08-2023
+K0214,Premium,25-44,Man,Korsholm,Öka kondition,11-2020
+K0215,Morning,25-44,Man,Vasa,Öka kondition,01-2024
+K0216,Premium,25-44,Kvinna,Vasa,Bygga muskler,12-2020
+K0217,Premium,25-44,Man,Vasa,Gå ner i vikt,08-2021
+K0218,Flex,<25,Man,Vasa,Bygga muskler,04-2024
+K0219,Premium,65+,Man,Vasa,Rörlighet & återhämtning,11-2023
+K0220,Premium,45-64,Man,Korsholm,Öka kondition,03-2025
+K0221,Basic,25-44,Kvinna,Korsholm,Rehab/skadeförebyggande,06-2023
+K0222,Flex,25-44,Man,Vasa,Gå ner i vikt,01-2023
+K0223,Student,<25,Inte angivet,Korsholm,Stresshantering,08-2019
+K0224,Morning,65+,Kvinna,Korsholm,Rörlighet & återhämtning,08-2021
+K0225,Basic,25-44,Man,Vasa,Öka kondition,09-2020
+K0226,Basic,45-64,Man,Vasa,Bygga muskler,08-2020
+K0227,Flex,65+,Kvinna,Vasa,Rörlighet & återhämtning,11-2025
+K0228,Premium,25-44,Kvinna,Vasa,Rehab/skadeförebyggande,02-2022
+K0229,Flex,<25,Kvinna,Vasa,Bygga muskler,04-2025
+K0230,Basic,45-64,Man,Vasa,Bli starkare,04-2023
+K0231,Premium,25-44,Man,Vasa,Gå ner i vikt,11-2024
+K0232,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,05-2022
+K0233,Student,<25,Kvinna,Korsholm,Bygga muskler,02-2023
+K0234,Premium,25-44,Kvinna,Korsholm,Bli starkare,11-2022
+K0235,Basic,25-44,Man,Närpes,Bygga muskler,04-2020
+K0236,Senior,65+,Kvinna,Vasa,Öka kondition,10-2023
+K0237,Premium,<25,Man,Nykarleby,Bygga muskler,04-2021
+K0238,Morning,45-64,Kvinna,Vasa,Öka kondition,03-2019
+K0239,Morning,45-64,Kvinna,Vasa,Öka kondition,07-2023
+K0240,Premium,45-64,Man,Laihela,Gå ner i vikt,06-2020
+K0241,Basic,45-64,Man,Närpes,Rörlighet & återhämtning,08-2025
+K0242,Basic,25-44,Man,Korsholm,Öka kondition,09-2025
+K0243,Senior,65+,Man,Vörå,Rörlighet & återhämtning,05-2025
+K0244,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,06-2021
+K0245,Student,<25,Man,Korsholm,Bygga muskler,02-2019
+K0246,Premium,25-44,Man,Vasa,Gå ner i vikt,08-2025
+K0247,Basic,45-64,Man,Pedersöre,Bygga muskler,11-2021
+K0248,Student,<25,Kvinna,Vasa,Gå ner i vikt,11-2025
+K0249,Premium,25-44,Man,Vasa,Gå ner i vikt,11-2025
+K0250,Premium,<25,Kvinna,Malax,Bli starkare,03-2025
+K0251,Senior,65+,Kvinna,Vörå,Hälsa & energi,10-2020
+K0252,Premium,45-64,Kvinna,Vasa,Bygga muskler,01-2022
+K0253,Flex,65+,Man,Malax,Rörlighet & återhämtning,01-2025
+K0254,Student,<25,Man,Vasa,Bygga muskler,03-2021
+K0255,Basic,25-44,Man,Vasa,Öka kondition,02-2020
+K0256,Basic,45-64,Kvinna,Vasa,Gå ner i vikt,10-2022
+K0257,Premium,<25,Man,Vasa,Bygga muskler,09-2025
+K0258,Student,<25,Man,Vasa,Bli starkare,12-2023
+K0259,Premium,25-44,Man,Vasa,Bli starkare,05-2023
+K0260,Morning,25-44,Kvinna,Korsholm,Öka kondition,09-2019
+K0261,Basic,25-44,Man,Vasa,Rehab/skadeförebyggande,03-2023
+K0262,Morning,45-64,Man,Vasa,Öka kondition,01-2026
+K0263,Morning,25-44,Man,Vasa,Rörlighet & återhämtning,12-2019
+K0264,Premium,45-64,Kvinna,Vasa,Hälsa & energi,01-2023
+K0265,Basic,25-44,Kvinna,Vasa,Bli starkare,02-2025
+K0266,Basic,25-44,Kvinna,Korsholm,Bli starkare,02-2024
+K0267,Flex,25-44,Man,Korsholm,Bli starkare,12-2023
+K0268,Basic,<25,Man,Vasa,Bli starkare,10-2023
+K0269,Basic,25-44,Kvinna,Malax,Öka kondition,05-2021
+K0270,Flex,25-44,Man,Korsholm,Hälsa & energi,01-2021
+K0271,Premium,25-44,Man,Vasa,Bli starkare,12-2024
+K0272,Premium,25-44,Kvinna,Korsholm,Bli starkare,12-2024
+K0273,Premium,45-64,Man,Korsholm,Öka kondition,04-2025
+K0274,Flex,25-44,Man,Vasa,Bli starkare,06-2025
+K0275,Student,<25,Kvinna,Korsholm,Bli starkare,08-2022
+K0276,Premium,45-64,Kvinna,Korsholm,Bli starkare,11-2022
+K0277,Basic,25-44,Inte angivet,Vasa,Bygga muskler,07-2024
+K0278,Premium,65+,Man,Vasa,Rörlighet & återhämtning,11-2023
+K0279,Student,<25,Kvinna,Korsholm,Rörlighet & återhämtning,12-2023
+K0280,Morning,25-44,Man,Nykarleby,Bygga muskler,08-2024
+K0281,Morning,25-44,Kvinna,Pedersöre,Rörlighet & återhämtning,04-2025
+K0282,Basic,45-64,Kvinna,Vasa,Bli starkare,03-2021
+K0283,Student,<25,Kvinna,Korsholm,Bygga muskler,08-2021
+K0284,Flex,25-44,Kvinna,Vörå,Bli starkare,08-2019
+K0285,Senior,65+,Man,Korsholm,Bygga muskler,09-2022
+K0286,Basic,<25,Kvinna,Vasa,Hälsa & energi,03-2019
+K0287,Premium,25-44,Kvinna,Vasa,Rörlighet & återhämtning,08-2022
+K0288,Senior,65+,Man,Korsholm,Bli starkare,06-2022
+K0289,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,11-2020
+K0290,Flex,45-64,Man,Vasa,Gå ner i vikt,03-2023
+K0291,Basic,25-44,Man,Korsholm,Gå ner i vikt,03-2019
+K0292,Morning,65+,Kvinna,Vasa,Rörlighet & återhämtning,04-2019
+K0293,Flex,45-64,Man,Korsholm,Rörlighet & återhämtning,10-2024
+K0294,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,11-2021
+K0295,Student,<25,Man,Korsholm,Rörlighet & återhämtning,11-2019
+K0296,Basic,<25,Kvinna,Vasa,Rörlighet & återhämtning,07-2022
+K0297,Basic,65+,Man,Korsholm,Hälsa & energi,04-2024
+K0298,Student,<25,Kvinna,Malax,Bygga muskler,07-2020
+K0299,Student,<25,Man,Korsholm,Hälsa & energi,05-2023
+K0300,Premium,25-44,Man,Korsholm,Bli starkare,09-2019
+K0301,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,04-2019
+K0302,Student,<25,Kvinna,Vasa,Öka kondition,10-2022
+K0303,Morning,45-64,Kvinna,Vasa,Bygga muskler,10-2022
+K0304,Basic,25-44,Kvinna,Vasa,Öka kondition,05-2023
+K0305,Premium,25-44,Man,Vasa,Bygga muskler,05-2024
+K0306,Basic,25-44,Man,Pedersöre,Bli starkare,11-2025
+K0307,Premium,45-64,Man,Vasa,Bli starkare,01-2023
+K0308,Premium,25-44,Man,Korsholm,Öka kondition,08-2021
+K0309,Flex,25-44,Man,Vasa,Öka kondition,08-2024
+K0310,Premium,25-44,Man,Korsholm,Hälsa & energi,03-2021
+K0311,Basic,45-64,Kvinna,Korsholm,Öka kondition,12-2021
+K0312,Student,25-44,Man,Nykarleby,Bli starkare,07-2019
+K0313,Morning,25-44,Inte angivet,Vasa,Rörlighet & återhämtning,03-2019
+K0314,Premium,45-64,Kvinna,Korsholm,Rörlighet & återhämtning,11-2025
+K0315,Flex,45-64,Kvinna,Korsholm,Rörlighet & återhämtning,12-2024
+K0316,Senior,65+,Kvinna,Vasa,Öka kondition,08-2023
+K0317,Basic,45-64,Man,Korsholm,Hälsa & energi,09-2021
+K0318,Basic,25-44,Kvinna,Vasa,Hälsa & energi,02-2020
+K0319,Premium,25-44,Kvinna,Korsholm,Bli starkare,04-2020
+K0320,Student,25-44,Man,Vasa,Bli starkare,10-2020
+K0321,Student,<25,Kvinna,Korsholm,Bygga muskler,11-2022
+K0322,Basic,<25,Man,Vasa,Bygga muskler,11-2023
+K0323,Morning,<25,Man,Korsholm,Bli starkare,09-2023
+K0324,Flex,<25,Kvinna,Pedersöre,Bli starkare,12-2020
+K0325,Basic,25-44,Man,Vasa,Öka kondition,09-2025
+K0326,Flex,45-64,Kvinna,Vasa,Hälsa & energi,03-2024
+K0327,Flex,25-44,Kvinna,Vasa,Gå ner i vikt,12-2022
+K0328,Flex,65+,Kvinna,Vasa,Hälsa & energi,04-2023
+K0329,Flex,<25,Inte angivet,Vasa,Bygga muskler,12-2021
+K0330,Basic,65+,Kvinna,Korsholm,Rehab/skadeförebyggande,08-2020
+K0331,Student,<25,Kvinna,Vasa,Bygga muskler,07-2021
+K0332,Basic,25-44,Man,Vasa,Gå ner i vikt,03-2024
+K0333,Student,25-44,Man,Korsholm,Bli starkare,02-2019
+K0334,Basic,65+,Kvinna,Vasa,Gå ner i vikt,10-2019
+K0335,Premium,25-44,Man,Korsholm,Hälsa & energi,05-2019
+K0336,Flex,25-44,Man,Vasa,Bli starkare,04-2019
+K0337,Basic,45-64,Kvinna,Vasa,Rehab/skadeförebyggande,12-2024
+K0338,Basic,25-44,Kvinna,Korsholm,Öka kondition,10-2023
+K0339,Student,<25,Kvinna,Vasa,Rörlighet & återhämtning,05-2022
+K0340,Morning,65+,Kvinna,Vasa,Bli starkare,09-2019
+K0341,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,04-2022
+K0342,Basic,45-64,Kvinna,Vasa,Bygga muskler,03-2022
+K0343,Student,<25,Man,Vasa,Öka kondition,03-2020
+K0344,Basic,25-44,Man,Vasa,Bli starkare,11-2021
+K0345,Basic,25-44,Man,Malax,Gå ner i vikt,08-2021
+K0346,Basic,25-44,Man,Vasa,Bli starkare,03-2023
+K0347,Premium,25-44,Man,Vasa,Bygga muskler,10-2023
+K0348,Premium,<25,Man,Vasa,Bli starkare,05-2019
+K0349,Flex,45-64,Man,Vasa,Öka kondition,08-2021
+K0350,Basic,<25,Man,Korsholm,Bli starkare,04-2023
+K0351,Basic,45-64,Man,Vasa,Hälsa & energi,05-2022
+K0352,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,12-2024
+K0353,Student,<25,Kvinna,Korsholm,Hälsa & energi,08-2023
+K0354,Basic,45-64,Kvinna,Vasa,Bygga muskler,01-2020
+K0355,Flex,25-44,Man,Vasa,Öka kondition,06-2019
+K0356,Premium,25-44,Man,Vörå,Bli starkare,11-2023
+K0357,Flex,45-64,Kvinna,Korsholm,Bygga muskler,03-2019
+K0358,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,06-2023
+K0359,Premium,45-64,Man,Korsholm,Öka kondition,09-2025
+K0360,Basic,45-64,Man,Vasa,Bygga muskler,11-2022
+K0361,Student,<25,Man,Korsholm,Hälsa & energi,09-2021
+K0362,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,05-2023
+K0363,Premium,45-64,Man,Korsholm,Bygga muskler,08-2022
+K0364,Premium,25-44,Kvinna,Vasa,Hälsa & energi,03-2023
+K0365,Student,45-64,Kvinna,Korsholm,Gå ner i vikt,09-2025
+K0366,Premium,45-64,Man,Vasa,Gå ner i vikt,02-2022
+K0367,Basic,45-64,Man,Vasa,Gå ner i vikt,10-2025
+K0368,Student,<25,Man,Korsholm,Hälsa & energi,05-2025
+K0369,Basic,45-64,Kvinna,Vasa,Bli starkare,04-2020
+K0370,Premium,25-44,Man,Korsholm,Bli starkare,08-2019
+K0371,Basic,25-44,Kvinna,Korsholm,Bli starkare,08-2019
+K0372,Basic,65+,Man,Laihela,Rörlighet & återhämtning,02-2019
+K0373,Basic,25-44,Kvinna,Vasa,Bygga muskler,08-2019
+K0374,Morning,45-64,Man,Nykarleby,Bli starkare,11-2023
+K0375,Morning,25-44,Kvinna,Vasa,Hälsa & energi,07-2019
+K0376,Senior,65+,Man,Kristinestad,Rörlighet & återhämtning,12-2020
+K0377,Student,<25,Man,Vasa,Bli starkare,12-2024
+K0378,Morning,45-64,Kvinna,Vasa,Hälsa & energi,02-2019
+K0379,Premium,25-44,Man,Jakobstad,Stresshantering,12-2024
+K0380,Flex,45-64,Kvinna,Vasa,Hälsa & energi,12-2020
+K0381,Premium,45-64,Kvinna,Vasa,Hälsa & energi,01-2020
+K0382,Flex,45-64,Man,Vasa,Öka kondition,12-2023
+K0383,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,06-2023
+K0384,Morning,25-44,Kvinna,Korsholm,Hälsa & energi,03-2025
+K0385,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,06-2024
+K0386,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,07-2024
+K0387,Student,<25,Kvinna,Vasa,Öka kondition,12-2020
+K0388,Flex,25-44,Man,Vasa,Gå ner i vikt,04-2020
+K0389,Morning,45-64,Kvinna,Korsholm,Stresshantering,04-2024
+K0390,Senior,65+,Man,Korsholm,Hälsa & energi,06-2024
+K0391,Basic,25-44,Man,Korsholm,Bygga muskler,01-2026
+K0392,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,10-2021
+K0393,Premium,25-44,Man,Vasa,Bygga muskler,12-2021
+K0394,Basic,25-44,Kvinna,Vasa,Bli starkare,05-2024
+K0395,Premium,25-44,Man,Närpes,Bli starkare,10-2021
+K0396,Premium,45-64,Man,Vasa,Bli starkare,09-2025
+K0397,Flex,25-44,Kvinna,Vasa,Gå ner i vikt,01-2025
+K0398,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,05-2022
+K0399,Premium,<25,Man,Korsholm,Öka kondition,07-2024
+K0400,Premium,25-44,Inte angivet,Vasa,Bli starkare,08-2024
+K0401,Senior,65+,Kvinna,Vasa,Bli starkare,08-2019
+K0402,Basic,25-44,Man,Vasa,Bygga muskler,04-2025
+K0403,Flex,25-44,Kvinna,Vasa,Hälsa & energi,07-2022
+K0404,Premium,45-64,Kvinna,Korsholm,Bli starkare,01-2025
+K0405,Flex,<25,Man,Vasa,Rörlighet & återhämtning,04-2021
+K0406,Student,<25,Kvinna,Vasa,Bli starkare,05-2025
+K0407,Premium,45-64,Kvinna,Korsholm,Bygga muskler,02-2022
+K0408,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,01-2019
+K0409,Basic,25-44,Man,Korsholm,Öka kondition,05-2025
+K0410,Basic,65+,Kvinna,Vasa,Öka kondition,08-2019
+K0411,Flex,45-64,Man,Närpes,Bygga muskler,04-2021
+K0412,Premium,65+,Man,Korsholm,Gå ner i vikt,10-2025
+K0413,Flex,45-64,Kvinna,Vasa,Rörlighet & återhämtning,09-2025
+K0414,Basic,45-64,Man,Korsholm,Rörlighet & återhämtning,11-2022
+K0415,Morning,45-64,Man,Vasa,Gå ner i vikt,06-2023
+K0416,Basic,25-44,Man,Vasa,Bli starkare,01-2022
+K0417,Basic,25-44,Kvinna,Vasa,Hälsa & energi,12-2020
+K0418,Basic,45-64,Man,Vasa,Stresshantering,03-2021
+K0419,Premium,45-64,Kvinna,Korsholm,Hälsa & energi,01-2024
+K0420,Basic,25-44,Man,Korsholm,Gå ner i vikt,03-2024
+K0421,Premium,25-44,Kvinna,Korsholm,Öka kondition,10-2024
+K0422,Senior,65+,Kvinna,Vasa,Hälsa & energi,04-2024
+K0423,Basic,25-44,Man,Vasa,Rörlighet & återhämtning,08-2019
+K0424,Premium,25-44,Kvinna,Vasa,Bli starkare,11-2022
+K0425,Morning,25-44,Kvinna,Korsholm,Gå ner i vikt,05-2019
+K0426,Basic,65+,Man,Vasa,Stresshantering,09-2022
+K0427,Morning,25-44,Kvinna,Korsholm,Bygga muskler,02-2022
+K0428,Flex,25-44,Kvinna,Vasa,Bygga muskler,04-2025
+K0429,Senior,65+,Man,Korsholm,Rörlighet & återhämtning,03-2021
+K0430,Premium,<25,Man,Korsholm,Gå ner i vikt,01-2020
+K0431,Senior,65+,Man,Vasa,Hälsa & energi,11-2019
+K0432,Basic,65+,Kvinna,Vasa,Rörlighet & återhämtning,04-2024
+K0433,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,09-2023
+K0434,Morning,45-64,Man,Korsholm,Bli starkare,09-2019
+K0435,Morning,45-64,Kvinna,Vasa,Bli starkare,08-2019
+K0436,Basic,<25,Man,Vasa,Öka kondition,10-2023
+K0437,Flex,45-64,Kvinna,Korsholm,Bli starkare,07-2019
+K0438,Student,<25,Man,Vasa,Öka kondition,10-2024
+K0439,Premium,25-44,Kvinna,Vasa,Bli starkare,04-2024
+K0440,Flex,25-44,Man,Vasa,Bli starkare,07-2019
+K0441,Premium,25-44,Kvinna,Korsholm,Hälsa & energi,09-2019
+K0442,Basic,25-44,Kvinna,Vasa,Bygga muskler,12-2025
+K0443,Premium,<25,Man,Vasa,Bygga muskler,01-2022
+K0444,Premium,25-44,Kvinna,Vasa,Bli starkare,12-2021
+K0445,Morning,25-44,Kvinna,Närpes,Gå ner i vikt,10-2024
+K0446,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,10-2025
+K0447,Basic,25-44,Kvinna,Nykarleby,Bli starkare,12-2025
+K0448,Student,<25,Man,Korsholm,Öka kondition,05-2024
+K0449,Student,<25,Kvinna,Korsholm,Bli starkare,08-2021
+K0450,Morning,25-44,Kvinna,Korsholm,Gå ner i vikt,08-2019
+K0451,Basic,<25,Man,Vasa,Öka kondition,05-2024
+K0452,Basic,25-44,Kvinna,Vasa,Bli starkare,10-2022
+K0453,Premium,25-44,Man,Vasa,Rehab/skadeförebyggande,05-2022
+K0454,Morning,25-44,Kvinna,Korsholm,Bli starkare,06-2025
+K0455,Morning,25-44,Man,Korsholm,Öka kondition,10-2019
+K0456,Basic,25-44,Kvinna,Vasa,Bygga muskler,04-2022
+K0457,Morning,45-64,Man,Malax,Gå ner i vikt,01-2019
+K0458,Premium,45-64,Man,Korsholm,Öka kondition,09-2022
+K0459,Flex,45-64,Kvinna,Vasa,Öka kondition,05-2019
+K0460,Senior,65+,Kvinna,Korsholm,Hälsa & energi,09-2019
+K0461,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,10-2019
+K0462,Flex,65+,Man,Korsholm,Rehab/skadeförebyggande,08-2023
+K0463,Premium,25-44,Kvinna,Korsholm,Gå ner i vikt,07-2024
+K0464,Morning,45-64,Man,Vasa,Bygga muskler,02-2023
+K0465,Basic,45-64,Kvinna,Vasa,Gå ner i vikt,10-2025
+K0466,Morning,25-44,Man,Korsholm,Bli starkare,08-2021
+K0467,Premium,25-44,Kvinna,Korsholm,Bli starkare,05-2021
+K0468,Flex,<25,Kvinna,Korsholm,Bli starkare,02-2025
+K0469,Premium,45-64,Kvinna,Malax,Bli starkare,11-2020
+K0470,Basic,25-44,Kvinna,Malax,Hälsa & energi,10-2025
+K0471,Flex,<25,Kvinna,Korsholm,Öka kondition,02-2019
+K0472,Premium,45-64,Kvinna,Vasa,Stresshantering,11-2025
+K0473,Premium,45-64,Kvinna,Vasa,Bygga muskler,05-2019
+K0474,Senior,65+,Kvinna,Vasa,Hälsa & energi,02-2025
+K0475,Basic,45-64,Kvinna,Korsholm,Gå ner i vikt,07-2022
+K0476,Senior,65+,Kvinna,Korsholm,Gå ner i vikt,01-2026
+K0477,Flex,45-64,Man,Vasa,Rehab/skadeförebyggande,07-2019
+K0478,Premium,25-44,Inte angivet,Vörå,Hälsa & energi,04-2023
+K0479,Premium,25-44,Kvinna,Malax,Gå ner i vikt,11-2025
+K0480,Premium,25-44,Man,Korsholm,Öka kondition,01-2023
+K0481,Flex,<25,Kvinna,Korsholm,Öka kondition,06-2023
+K0482,Basic,25-44,Man,Vasa,Gå ner i vikt,10-2023
+K0483,Student,<25,Kvinna,Vasa,Bli starkare,03-2022
+K0484,Premium,<25,Man,Vasa,Rörlighet & återhämtning,10-2023
+K0485,Flex,45-64,Man,Vasa,Gå ner i vikt,02-2023
+K0486,Premium,45-64,Man,Vasa,Bygga muskler,06-2025
+K0487,Premium,25-44,Kvinna,Malax,Öka kondition,05-2019
+K0488,Basic,45-64,Man,Korsholm,Öka kondition,11-2020
+K0489,Basic,25-44,Man,Vasa,Rörlighet & återhämtning,09-2025
+K0490,Basic,45-64,Kvinna,Vasa,Gå ner i vikt,03-2025
+K0491,Premium,45-64,Man,Vasa,Öka kondition,08-2022
+K0492,Basic,25-44,Man,Korsholm,Bygga muskler,03-2023
+K0493,Premium,25-44,Man,Korsholm,Öka kondition,04-2021
+K0494,Premium,25-44,Kvinna,Vasa,Rörlighet & återhämtning,07-2020
+K0495,Flex,45-64,Man,Korsholm,Bygga muskler,04-2022
+K0496,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,11-2021
+K0497,Basic,25-44,Man,Vasa,Öka kondition,12-2022
+K0498,Premium,<25,Kvinna,Vasa,Bygga muskler,09-2019
+K0499,Flex,25-44,Man,Korsholm,Bli starkare,11-2025
+K0500,Basic,25-44,Man,Vasa,Rehab/skadeförebyggande,12-2025
+K0501,Premium,<25,Kvinna,Vasa,Bygga muskler,03-2024
+K0502,Premium,45-64,Kvinna,Vasa,Bygga muskler,02-2023
+K0503,Morning,45-64,Kvinna,Vasa,Bli starkare,03-2021
+K0504,Senior,65+,Kvinna,Vasa,Bygga muskler,07-2024
+K0505,Premium,<25,Man,Laihela,Stresshantering,02-2024
+K0506,Morning,25-44,Man,Korsholm,Rörlighet & återhämtning,02-2020
+K0507,Basic,45-64,Kvinna,Vasa,Bli starkare,05-2025
+K0508,Morning,65+,Man,Vasa,Stresshantering,10-2024
+K0509,Basic,25-44,Kvinna,Vasa,Öka kondition,09-2025
+K0510,Morning,45-64,Man,Vasa,Gå ner i vikt,02-2024
+K0511,Morning,<25,Kvinna,Vasa,Bli starkare,05-2023
+K0512,Flex,45-64,Man,Vasa,Rörlighet & återhämtning,12-2021
+K0513,Flex,45-64,Kvinna,Vasa,Hälsa & energi,08-2025
+K0514,Premium,25-44,Man,Vasa,Bygga muskler,04-2025
+K0515,Student,25-44,Kvinna,Vasa,Gå ner i vikt,04-2019
+K0516,Student,25-44,Man,Korsholm,Hälsa & energi,03-2019
+K0517,Premium,45-64,Man,Korsholm,Gå ner i vikt,01-2022
+K0518,Basic,45-64,Man,Vasa,Bygga muskler,08-2024
+K0519,Basic,65+,Man,Nykarleby,Gå ner i vikt,12-2025
+K0520,Premium,45-64,Kvinna,Korsholm,Bygga muskler,04-2020
+K0521,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,01-2023
+K0522,Student,<25,Man,Korsholm,Gå ner i vikt,09-2021
+K0523,Basic,25-44,Kvinna,Vasa,Bli starkare,11-2025
+K0524,Basic,45-64,Kvinna,Korsholm,Bygga muskler,11-2024
+K0525,Flex,<25,Man,Vasa,Bygga muskler,12-2024
+K0526,Flex,45-64,Kvinna,Vasa,Bli starkare,04-2022
+K0527,Student,45-64,Kvinna,Korsholm,Bli starkare,12-2021
+K0528,Premium,45-64,Man,Närpes,Gå ner i vikt,03-2021
+K0529,Premium,25-44,Kvinna,Korsholm,Gå ner i vikt,06-2019
+K0530,Flex,25-44,Kvinna,Vasa,Öka kondition,02-2025
+K0531,Basic,25-44,Man,Pedersöre,Bli starkare,08-2024
+K0532,Basic,65+,Kvinna,Vasa,Bli starkare,01-2026
+K0533,Premium,<25,Man,Korsholm,Bli starkare,01-2026
+K0534,Flex,45-64,Man,Korsholm,Öka kondition,12-2022
+K0535,Basic,25-44,Kvinna,Vasa,Öka kondition,04-2024
+K0536,Basic,<25,Kvinna,Vasa,Bygga muskler,08-2025
+K0537,Flex,45-64,Kvinna,Vasa,Rörlighet & återhämtning,01-2025
+K0538,Senior,65+,Man,Vasa,Bli starkare,07-2020
+K0539,Basic,65+,Man,Korsholm,Bygga muskler,01-2022
+K0540,Flex,<25,Man,Vasa,Bygga muskler,11-2019
+K0541,Flex,25-44,Kvinna,Vasa,Bli starkare,10-2025
+K0542,Senior,65+,Kvinna,Vasa,Hälsa & energi,12-2022
+K0543,Student,<25,Kvinna,Korsholm,Bygga muskler,08-2020
+K0544,Basic,45-64,Man,Korsholm,Stresshantering,08-2023
+K0545,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,09-2023
+K0546,Basic,25-44,Kvinna,Malax,Öka kondition,05-2021
+K0547,Basic,25-44,Man,Vasa,Rörlighet & återhämtning,09-2019
+K0548,Basic,25-44,Man,Korsholm,Bygga muskler,08-2023
+K0549,Senior,65+,Man,Vasa,Hälsa & energi,04-2022
+K0550,Basic,65+,Man,Korsholm,Stresshantering,05-2024
+K0551,Basic,<25,Inte angivet,Vasa,Öka kondition,07-2022
+K0552,Senior,65+,Kvinna,Vasa,Hälsa & energi,10-2024
+K0553,Basic,45-64,Man,Närpes,Gå ner i vikt,09-2022
+K0554,Basic,65+,Man,Korsholm,Rörlighet & återhämtning,10-2022
+K0555,Premium,25-44,Man,Vasa,Hälsa & energi,05-2025
+K0556,Basic,25-44,Man,Vasa,Öka kondition,09-2021
+K0557,Flex,25-44,Kvinna,Vasa,Hälsa & energi,12-2019
+K0558,Premium,25-44,Man,Vasa,Bli starkare,04-2019
+K0559,Morning,45-64,Kvinna,Vasa,Rehab/skadeförebyggande,05-2024
+K0560,Flex,25-44,Man,Vasa,Öka kondition,05-2023
+K0561,Senior,65+,Man,Korsholm,Öka kondition,08-2023
+K0562,Basic,25-44,Man,Vasa,Gå ner i vikt,05-2020
+K0563,Premium,25-44,Man,Korsholm,Bygga muskler,02-2020
+K0564,Student,<25,Man,Vasa,Bli starkare,02-2019
+K0565,Morning,25-44,Man,Vasa,Gå ner i vikt,06-2021
+K0566,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,07-2023
+K0567,Student,25-44,Inte angivet,Vasa,Hälsa & energi,10-2021
+K0568,Morning,65+,Man,Vasa,Öka kondition,02-2022
+K0569,Morning,45-64,Man,Korsholm,Rörlighet & återhämtning,05-2025
+K0570,Flex,25-44,Kvinna,Vasa,Hälsa & energi,06-2021
+K0571,Morning,45-64,Kvinna,Jakobstad,Öka kondition,08-2022
+K0572,Basic,25-44,Man,Vasa,Öka kondition,06-2024
+K0573,Basic,<25,Man,Vasa,Bli starkare,08-2021
+K0574,Student,<25,Man,Vasa,Rörlighet & återhämtning,05-2023
+K0575,Basic,45-64,Man,Vasa,Öka kondition,01-2025
+K0576,Basic,25-44,Man,Vasa,Bygga muskler,09-2025
+K0577,Morning,<25,Kvinna,Korsholm,Bli starkare,01-2020
+K0578,Premium,25-44,Man,Jakobstad,Öka kondition,08-2025
+K0579,Premium,25-44,Kvinna,Vasa,Bygga muskler,11-2022
+K0580,Basic,45-64,Kvinna,Vörå,Öka kondition,09-2020
+K0581,Student,<25,Kvinna,Korsholm,Bygga muskler,04-2022
+K0582,Morning,45-64,Man,Vasa,Gå ner i vikt,12-2025
+K0583,Basic,45-64,Kvinna,Malax,Rörlighet & återhämtning,04-2022
+K0584,Senior,65+,Kvinna,Vasa,Öka kondition,01-2021
+K0585,Basic,45-64,Kvinna,Korsholm,Gå ner i vikt,04-2023
+K0586,Basic,25-44,Man,Vasa,Bygga muskler,07-2020
+K0587,Senior,65+,Man,Korsholm,Rehab/skadeförebyggande,06-2019
+K0588,Morning,45-64,Kvinna,Korsholm,Bygga muskler,11-2019
+K0589,Morning,<25,Man,Korsholm,Bygga muskler,11-2019
+K0590,Senior,65+,Kvinna,Korsholm,Gå ner i vikt,11-2019
+K0591,Basic,25-44,Man,Vasa,Bli starkare,11-2019
+K0592,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,05-2023
+K0593,Student,<25,Kvinna,Korsholm,Bygga muskler,04-2020
+K0594,Morning,25-44,Kvinna,Vasa,Gå ner i vikt,06-2021
+K0595,Basic,25-44,Man,Vasa,Hälsa & energi,04-2025
+K0596,Premium,25-44,Man,Närpes,Stresshantering,09-2022
+K0597,Basic,25-44,Inte angivet,Vörå,Öka kondition,07-2023
+K0598,Flex,25-44,Kvinna,Korsholm,Bli starkare,03-2020
+K0599,Flex,<25,Man,Jakobstad,Bli starkare,05-2020
+K0600,Basic,25-44,Kvinna,Vasa,Öka kondition,04-2019
+K0601,Basic,25-44,Man,Vasa,Öka kondition,02-2020
+K0602,Morning,25-44,Man,Vasa,Gå ner i vikt,12-2020
+K0603,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,04-2020
+K0604,Flex,25-44,Kvinna,Jakobstad,Bli starkare,08-2019
+K0605,Flex,<25,Kvinna,Vasa,Hälsa & energi,11-2019
+K0606,Morning,25-44,Kvinna,Vasa,Bygga muskler,04-2022
+K0607,Premium,25-44,Man,Vasa,Bli starkare,09-2020
+K0608,Student,<25,Kvinna,Korsholm,Bygga muskler,07-2021
+K0609,Flex,45-64,Man,Korsholm,Rörlighet & återhämtning,07-2022
+K0610,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,09-2023
+K0611,Premium,25-44,Kvinna,Jakobstad,Öka kondition,05-2019
+K0612,Flex,65+,Kvinna,Vasa,Öka kondition,08-2024
+K0613,Morning,25-44,Kvinna,Vasa,Öka kondition,06-2023
+K0614,Morning,25-44,Kvinna,Pedersöre,Gå ner i vikt,07-2019
+K0615,Senior,65+,Kvinna,Vasa,Stresshantering,01-2025
+K0616,Basic,25-44,Man,Vasa,Gå ner i vikt,06-2025
+K0617,Premium,<25,Kvinna,Vasa,Rörlighet & återhämtning,07-2019
+K0618,Flex,<25,Kvinna,Vasa,Öka kondition,12-2020
+K0619,Basic,45-64,Man,Korsholm,Öka kondition,08-2024
+K0620,Premium,45-64,Kvinna,Laihela,Gå ner i vikt,07-2024
+K0621,Morning,45-64,Kvinna,Korsholm,Gå ner i vikt,04-2020
+K0622,Flex,<25,Kvinna,Korsholm,Stresshantering,06-2020
+K0623,Basic,25-44,Man,Korsholm,Rörlighet & återhämtning,06-2021
+K0624,Premium,45-64,Kvinna,Malax,Bygga muskler,10-2022
+K0625,Flex,45-64,Kvinna,Vasa,Gå ner i vikt,05-2023
+K0626,Premium,25-44,Kvinna,Korsholm,Bli starkare,12-2021
+K0627,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,02-2022
+K0628,Student,<25,Man,Vasa,Bygga muskler,04-2024
+K0629,Basic,45-64,Man,Korsholm,Hälsa & energi,03-2019
+K0630,Flex,45-64,Kvinna,Vasa,Bygga muskler,10-2020
+K0631,Senior,65+,Kvinna,Korsholm,Öka kondition,09-2023
+K0632,Basic,45-64,Kvinna,Vasa,Bli starkare,04-2025
+K0633,Premium,45-64,Man,Vasa,Bli starkare,12-2022
+K0634,Flex,25-44,Man,Korsholm,Gå ner i vikt,10-2022
+K0635,Student,<25,Man,Korsholm,Bli starkare,10-2019
+K0636,Basic,25-44,Man,Malax,Gå ner i vikt,12-2021
+K0637,Basic,<25,Man,Vasa,Bygga muskler,08-2022
+K0638,Senior,65+,Man,Vasa,Rörlighet & återhämtning,06-2020
+K0639,Basic,25-44,Kvinna,Korsholm,Bygga muskler,10-2020
+K0640,Morning,25-44,Man,Nykarleby,Bli starkare,09-2021
+K0641,Basic,25-44,Man,Korsholm,Bygga muskler,02-2019
+K0642,Flex,45-64,Man,Vasa,Gå ner i vikt,04-2021
+K0643,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,06-2020
+K0644,Premium,25-44,Man,Korsholm,Bli starkare,08-2021
+K0645,Basic,45-64,Kvinna,Korsholm,Bli starkare,10-2019
+K0646,Basic,25-44,Man,Korsholm,Bygga muskler,03-2025
+K0647,Student,<25,Kvinna,Korsholm,Öka kondition,03-2023
+K0648,Flex,25-44,Kvinna,Malax,Bli starkare,10-2023
+K0649,Basic,25-44,Man,Vasa,Öka kondition,06-2024
+K0650,Student,<25,Man,Kristinestad,Stresshantering,07-2022
+K0651,Basic,45-64,Kvinna,Korsholm,Bygga muskler,07-2019
+K0652,Senior,65+,Kvinna,Vasa,Öka kondition,06-2022
+K0653,Flex,25-44,Man,Vasa,Öka kondition,02-2023
+K0654,Flex,65+,Kvinna,Vasa,Rörlighet & återhämtning,04-2024
+K0655,Student,<25,Man,Malax,Rörlighet & återhämtning,01-2022
+K0656,Basic,25-44,Man,Vasa,Gå ner i vikt,10-2019
+K0657,Basic,25-44,Man,Vörå,Bli starkare,11-2020
+K0658,Premium,45-64,Kvinna,Kristinestad,Rörlighet & återhämtning,12-2021
+K0659,Premium,25-44,Kvinna,Korsholm,Öka kondition,11-2023
+K0660,Basic,25-44,Kvinna,Vasa,Bygga muskler,11-2022
+K0661,Basic,25-44,Kvinna,Korsholm,Bygga muskler,05-2021
+K0662,Flex,25-44,Kvinna,Korsholm,Öka kondition,12-2025
+K0663,Basic,45-64,Kvinna,Vörå,Öka kondition,02-2023
+K0664,Premium,25-44,Man,Malax,Bli starkare,12-2020
+K0665,Premium,45-64,Man,Korsholm,Bli starkare,11-2019
+K0666,Flex,<25,Man,Korsholm,Bli starkare,01-2020
+K0667,Premium,25-44,Man,Vasa,Gå ner i vikt,01-2021
+K0668,Premium,45-64,Kvinna,Vasa,Hälsa & energi,05-2020
+K0669,Senior,65+,Man,Kristinestad,Öka kondition,02-2020
+K0670,Basic,65+,Kvinna,Pedersöre,Bygga muskler,11-2020
+K0671,Basic,45-64,Man,Vasa,Bygga muskler,02-2020
+K0672,Premium,65+,Man,Vasa,Rörlighet & återhämtning,06-2025
+K0673,Flex,25-44,Kvinna,Korsholm,Gå ner i vikt,07-2019
+K0674,Basic,45-64,Kvinna,Vasa,Bli starkare,07-2022
+K0675,Premium,25-44,Man,Vasa,Gå ner i vikt,04-2022
+K0676,Morning,25-44,Kvinna,Nykarleby,Hälsa & energi,12-2025
+K0677,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,10-2019
+K0678,Basic,45-64,Man,Malax,Bygga muskler,08-2021
+K0679,Senior,65+,Man,Vasa,Öka kondition,10-2025
+K0680,Basic,<25,Man,Närpes,Bli starkare,01-2025
+K0681,Flex,25-44,Kvinna,Vasa,Öka kondition,10-2024
+K0682,Basic,25-44,Inte angivet,Vasa,Rörlighet & återhämtning,09-2020
+K0683,Basic,25-44,Kvinna,Korsholm,Gå ner i vikt,02-2020
+K0684,Morning,25-44,Inte angivet,Vasa,Gå ner i vikt,09-2023
+K0685,Flex,25-44,Man,Korsholm,Rörlighet & återhämtning,07-2025
+K0686,Premium,25-44,Kvinna,Korsholm,Öka kondition,04-2023
+K0687,Senior,65+,Kvinna,Vasa,Bygga muskler,09-2022
+K0688,Basic,45-64,Man,Vasa,Bli starkare,11-2020
+K0689,Student,<25,Man,Korsholm,Bygga muskler,06-2024
+K0690,Basic,45-64,Man,Vasa,Gå ner i vikt,03-2020
+K0691,Flex,25-44,Kvinna,Korsholm,Bli starkare,04-2021
+K0692,Basic,45-64,Kvinna,Korsholm,Bygga muskler,11-2021
+K0693,Basic,45-64,Kvinna,Korsholm,Rörlighet & återhämtning,05-2022
+K0694,Senior,65+,Kvinna,Jakobstad,Öka kondition,06-2020
+K0695,Flex,25-44,Man,Vasa,Hälsa & energi,10-2019
+K0696,Basic,45-64,Man,Vasa,Gå ner i vikt,02-2023
+K0697,Morning,25-44,Man,Korsholm,Bli starkare,01-2021
+K0698,Morning,65+,Kvinna,Vasa,Hälsa & energi,02-2023
+K0699,Basic,45-64,Kvinna,Vasa,Stresshantering,01-2020
+K0700,Premium,25-44,Man,Korsholm,Hälsa & energi,10-2022
+K0701,Flex,45-64,Man,Korsholm,Bli starkare,10-2022
+K0702,Basic,25-44,Kvinna,Vörå,Gå ner i vikt,05-2019
+K0703,Basic,25-44,Kvinna,Vasa,Hälsa & energi,03-2021
+K0704,Basic,65+,Man,Korsholm,Öka kondition,11-2019
+K0705,Premium,25-44,Man,Vasa,Bli starkare,07-2019
+K0706,Morning,45-64,Kvinna,Vasa,Bli starkare,01-2026
+K0707,Premium,45-64,Man,Vasa,Öka kondition,08-2021
+K0708,Student,25-44,Man,Laihela,Bli starkare,09-2024
+K0709,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,07-2020
+K0710,Flex,45-64,Kvinna,Malax,Rörlighet & återhämtning,10-2023
+K0711,Student,<25,Kvinna,Vasa,Bli starkare,05-2024
+K0712,Premium,45-64,Man,Vasa,Öka kondition,07-2023
+K0713,Basic,<25,Kvinna,Vasa,Öka kondition,02-2022
+K0714,Flex,45-64,Man,Nykarleby,Rörlighet & återhämtning,12-2021
+K0715,Flex,25-44,Kvinna,Korsholm,Bli starkare,06-2021
+K0716,Student,<25,Man,Korsholm,Öka kondition,08-2025
+K0717,Premium,25-44,Kvinna,Vörå,Öka kondition,01-2025
+K0718,Morning,<25,Kvinna,Vasa,Bli starkare,11-2025
+K0719,Morning,25-44,Man,Korsholm,Bygga muskler,11-2019
+K0720,Student,<25,Man,Vasa,Bli starkare,03-2024
+K0721,Basic,25-44,Kvinna,Vasa,Bli starkare,08-2025
+K0722,Morning,45-64,Man,Vasa,Bygga muskler,04-2020
+K0723,Premium,65+,Kvinna,Vasa,Öka kondition,07-2019
+K0724,Flex,<25,Kvinna,Korsholm,Öka kondition,03-2024
+K0725,Basic,65+,Kvinna,Vörå,Rörlighet & återhämtning,11-2022
+K0726,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,11-2024
+K0727,Morning,45-64,Kvinna,Vasa,Rörlighet & återhämtning,12-2019
+K0728,Basic,25-44,Kvinna,Vasa,Bli starkare,07-2024
+K0729,Premium,<25,Kvinna,Vasa,Bygga muskler,09-2020
+K0730,Basic,45-64,Kvinna,Vasa,Bygga muskler,01-2020
+K0731,Senior,65+,Man,Vörå,Rörlighet & återhämtning,12-2019
+K0732,Student,<25,Kvinna,Vasa,Bygga muskler,10-2024
+K0733,Basic,25-44,Man,Malax,Gå ner i vikt,07-2023
+K0734,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,07-2022
+K0735,Basic,<25,Kvinna,Korsholm,Bygga muskler,05-2021
+K0736,Premium,45-64,Man,Korsholm,Bli starkare,05-2025
+K0737,Premium,65+,Man,Korsholm,Rörlighet & återhämtning,02-2022
+K0738,Flex,25-44,Kvinna,Laihela,Rörlighet & återhämtning,10-2024
+K0739,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,12-2021
+K0740,Premium,<25,Kvinna,Korsholm,Bygga muskler,01-2022
+K0741,Premium,45-64,Man,Korsholm,Öka kondition,08-2022
+K0742,Morning,25-44,Man,Vasa,Bygga muskler,02-2021
+K0743,Basic,45-64,Man,Korsholm,Hälsa & energi,02-2024
+K0744,Morning,25-44,Kvinna,Vasa,Bygga muskler,07-2022
+K0745,Morning,45-64,Kvinna,Vasa,Gå ner i vikt,08-2020
+K0746,Basic,45-64,Kvinna,Laihela,Gå ner i vikt,04-2025
+K0747,Premium,45-64,Kvinna,Vasa,Bli starkare,01-2022
+K0748,Student,<25,Kvinna,Korsholm,Bli starkare,11-2022
+K0749,Senior,65+,Kvinna,Närpes,Hälsa & energi,04-2025
+K0750,Student,<25,Kvinna,Vasa,Rörlighet & återhämtning,06-2023
+K0751,Flex,25-44,Man,Vasa,Bli starkare,10-2019
+K0752,Senior,65+,Man,Vasa,Bli starkare,07-2025
+K0753,Premium,45-64,Inte angivet,Korsholm,Gå ner i vikt,10-2023
+K0754,Flex,<25,Kvinna,Vasa,Bli starkare,05-2021
+K0755,Basic,25-44,Man,Korsholm,Öka kondition,11-2019
+K0756,Morning,45-64,Man,Korsholm,Bli starkare,08-2024
+K0757,Basic,25-44,Kvinna,Korsholm,Öka kondition,03-2023
+K0758,Morning,<25,Man,Vasa,Öka kondition,10-2022
+K0759,Student,<25,Kvinna,Vasa,Öka kondition,04-2025
+K0760,Flex,25-44,Kvinna,Malax,Bli starkare,08-2024
+K0761,Flex,25-44,Kvinna,Korsholm,Bli starkare,01-2020
+K0762,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,01-2021
+K0763,Student,<25,Man,Pedersöre,Gå ner i vikt,10-2020
+K0764,Basic,65+,Kvinna,Vasa,Gå ner i vikt,02-2024
+K0765,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,04-2019
+K0766,Senior,65+,Man,Vasa,Stresshantering,09-2022
+K0767,Senior,65+,Man,Laihela,Rörlighet & återhämtning,02-2024
+K0768,Senior,65+,Kvinna,Korsholm,Hälsa & energi,01-2025
+K0769,Flex,25-44,Kvinna,Korsholm,Gå ner i vikt,06-2021
+K0770,Student,<25,Kvinna,Nykarleby,Bli starkare,10-2024
+K0771,Flex,45-64,Man,Vasa,Bli starkare,10-2019
+K0772,Senior,65+,Man,Vörå,Rörlighet & återhämtning,10-2024
+K0773,Flex,25-44,Man,Nykarleby,Öka kondition,11-2019
+K0774,Basic,25-44,Kvinna,Korsholm,Öka kondition,08-2021
+K0775,Flex,<25,Man,Vasa,Öka kondition,08-2024
+K0776,Flex,45-64,Man,Vasa,Hälsa & energi,01-2020
+K0777,Basic,25-44,Kvinna,Vasa,Bygga muskler,07-2020
+K0778,Morning,45-64,Man,Vasa,Rörlighet & återhämtning,02-2024
+K0779,Basic,25-44,Kvinna,Vasa,Bygga muskler,12-2023
+K0780,Morning,45-64,Man,Vasa,Gå ner i vikt,07-2023
+K0781,Premium,65+,Kvinna,Vasa,Rörlighet & återhämtning,03-2024
+K0782,Flex,25-44,Kvinna,Vasa,Öka kondition,11-2022
+K0783,Premium,45-64,Man,Korsholm,Hälsa & energi,01-2021
+K0784,Premium,45-64,Man,Korsholm,Gå ner i vikt,10-2021
+K0785,Basic,45-64,Man,Korsholm,Gå ner i vikt,03-2020
+K0786,Morning,<25,Man,Vasa,Gå ner i vikt,06-2025
+K0787,Senior,65+,Kvinna,Laihela,Öka kondition,10-2022
+K0788,Flex,25-44,Man,Vasa,Bli starkare,11-2021
+K0789,Senior,65+,Man,Vasa,Hälsa & energi,12-2021
+K0790,Flex,<25,Kvinna,Vasa,Rörlighet & återhämtning,09-2025
+K0791,Basic,25-44,Kvinna,Vasa,Öka kondition,12-2019
+K0792,Basic,25-44,Man,Laihela,Bli starkare,12-2022
+K0793,Basic,45-64,Man,Vasa,Gå ner i vikt,05-2022
+K0794,Flex,45-64,Kvinna,Korsholm,Bygga muskler,04-2023
+K0795,Basic,45-64,Man,Vörå,Stresshantering,02-2019
+K0796,Premium,45-64,Kvinna,Nykarleby,Gå ner i vikt,04-2025
+K0797,Morning,45-64,Man,Vasa,Öka kondition,08-2025
+K0798,Basic,25-44,Kvinna,Vasa,Gå ner i vikt,10-2022
+K0799,Student,<25,Kvinna,Vasa,Hälsa & energi,12-2023
+K0800,Student,25-44,Man,Korsholm,Bygga muskler,07-2025
+K0801,Premium,<25,Kvinna,Korsholm,Gå ner i vikt,04-2024
+K0802,Morning,45-64,Inte angivet,Vasa,Öka kondition,01-2020
+K0803,Premium,<25,Kvinna,Vasa,Bygga muskler,06-2023
+K0804,Morning,45-64,Kvinna,Vasa,Öka kondition,04-2023
+K0805,Flex,25-44,Man,Vasa,Bygga muskler,01-2022
+K0806,Basic,25-44,Man,Korsholm,Öka kondition,01-2024
+K0807,Morning,25-44,Kvinna,Korsholm,Hälsa & energi,08-2025
+K0808,Senior,65+,Man,Vasa,Hälsa & energi,06-2025
+K0809,Flex,45-64,Kvinna,Vasa,Bygga muskler,03-2022
+K0810,Basic,45-64,Man,Vasa,Bli starkare,09-2019
+K0811,Senior,65+,Kvinna,Vasa,Bygga muskler,12-2025
+K0812,Basic,45-64,Man,Vasa,Rörlighet & återhämtning,11-2024
+K0813,Basic,45-64,Man,Korsholm,Öka kondition,10-2019
+K0814,Premium,45-64,Kvinna,Korsholm,Öka kondition,08-2025
+K0815,Flex,45-64,Kvinna,Korsholm,Bygga muskler,02-2025
+K0816,Premium,<25,Man,Vörå,Bli starkare,01-2023
+K0817,Morning,45-64,Man,Vasa,Hälsa & energi,03-2023
+K0818,Flex,25-44,Kvinna,Vasa,Bli starkare,10-2021
+K0819,Basic,<25,Man,Vasa,Bygga muskler,05-2019
+K0820,Premium,65+,Inte angivet,Korsholm,Hälsa & energi,09-2021
+K0821,Flex,<25,Man,Korsholm,Bli starkare,09-2024
+K0822,Morning,45-64,Man,Korsholm,Hälsa & energi,01-2019
+K0823,Basic,<25,Kvinna,Vasa,Bygga muskler,03-2021
+K0824,Basic,25-44,Kvinna,Vasa,Rörlighet & återhämtning,08-2021
+K0825,Basic,25-44,Kvinna,Vörå,Gå ner i vikt,08-2022
+K0826,Premium,25-44,Man,Jakobstad,Öka kondition,08-2025
+K0827,Premium,25-44,Kvinna,Korsholm,Öka kondition,10-2021
+K0828,Student,<25,Man,Korsholm,Hälsa & energi,06-2021
+K0829,Senior,65+,Man,Vasa,Rehab/skadeförebyggande,12-2023
+K0830,Basic,25-44,Man,Korsholm,Bygga muskler,01-2022
+K0831,Basic,45-64,Kvinna,Vasa,Hälsa & energi,06-2020
+K0832,Student,<25,Man,Vasa,Bygga muskler,03-2022
+K0833,Flex,25-44,Man,Korsholm,Rörlighet & återhämtning,12-2019
+K0834,Premium,25-44,Man,Vasa,Gå ner i vikt,06-2020
+K0835,Flex,45-64,Man,Korsholm,Öka kondition,07-2022
+K0836,Basic,25-44,Man,Vasa,Öka kondition,10-2021
+K0837,Morning,25-44,Kvinna,Vörå,Gå ner i vikt,06-2025
+K0838,Flex,25-44,Kvinna,Vasa,Bli starkare,07-2021
+K0839,Flex,65+,Kvinna,Malax,Hälsa & energi,02-2023
+K0840,Basic,45-64,Kvinna,Vasa,Öka kondition,04-2023
+K0841,Premium,25-44,Man,Vasa,Bli starkare,02-2019
+K0842,Premium,25-44,Kvinna,Korsholm,Öka kondition,12-2023
+K0843,Basic,25-44,Man,Korsholm,Hälsa & energi,02-2020
+K0844,Senior,65+,Kvinna,Vasa,Öka kondition,09-2025
+K0845,Flex,<25,Man,Vasa,Hälsa & energi,01-2020
+K0846,Morning,45-64,Kvinna,Korsholm,Gå ner i vikt,12-2021
+K0847,Basic,45-64,Kvinna,Malax,Bli starkare,07-2019
+K0848,Student,<25,Man,Korsholm,Hälsa & energi,01-2026
+K0849,Morning,25-44,Man,Närpes,Öka kondition,07-2022
+K0850,Basic,25-44,Man,Malax,Öka kondition,01-2023
+K0851,Flex,25-44,Kvinna,Vasa,Rörlighet & återhämtning,06-2019
+K0852,Flex,25-44,Kvinna,Vörå,Rörlighet & återhämtning,04-2024
+K0853,Senior,65+,Kvinna,Vasa,Bli starkare,04-2020
+K0854,Basic,45-64,Kvinna,Vasa,Öka kondition,04-2025
+K0855,Flex,25-44,Man,Vasa,Rörlighet & återhämtning,06-2020
+K0856,Basic,<25,Kvinna,Vasa,Bygga muskler,03-2020
+K0857,Premium,25-44,Kvinna,Vasa,Gå ner i vikt,04-2019
+K0858,Premium,25-44,Kvinna,Vasa,Bli starkare,09-2022
+K0859,Basic,25-44,Kvinna,Kristinestad,Bli starkare,10-2022
+K0860,Premium,25-44,Kvinna,Korsholm,Bygga muskler,07-2019
+K0861,Student,<25,Man,Pedersöre,Bli starkare,06-2024
+K0862,Flex,45-64,Man,Vasa,Rörlighet & återhämtning,03-2022
+K0863,Premium,<25,Man,Korsholm,Hälsa & energi,01-2023
+K0864,Senior,65+,Man,Vasa,Hälsa & energi,10-2021
+K0865,Senior,65+,Kvinna,Korsholm,Hälsa & energi,07-2021
+K0866,Basic,<25,Man,Korsholm,Rörlighet & återhämtning,10-2022
+K0867,Senior,65+,Kvinna,Vasa,Rörlighet & återhämtning,12-2019
+K0868,Basic,<25,Man,Vasa,Bli starkare,03-2020
+K0869,Basic,45-64,Kvinna,Vasa,Öka kondition,01-2025
+K0870,Student,<25,Kvinna,Vasa,Öka kondition,09-2025
+K0871,Basic,25-44,Kvinna,Vasa,Hälsa & energi,06-2021
+K0872,Flex,65+,Kvinna,Vasa,Hälsa & energi,12-2020
+K0873,Basic,25-44,Kvinna,Korsholm,Öka kondition,05-2023
+K0874,Basic,25-44,Kvinna,Jakobstad,Gå ner i vikt,09-2021
+K0875,Flex,25-44,Man,Korsholm,Bli starkare,03-2019
+K0876,Basic,25-44,Man,Korsholm,Hälsa & energi,01-2020
+K0877,Morning,25-44,Kvinna,Korsholm,Öka kondition,01-2024
+K0878,Premium,25-44,Kvinna,Vasa,Stresshantering,12-2023
+K0879,Flex,25-44,Man,Vasa,Gå ner i vikt,03-2019
+K0880,Flex,25-44,Kvinna,Vasa,Bygga muskler,07-2020
+K0881,Student,<25,Kvinna,Vasa,Bli starkare,08-2020
+K0882,Premium,45-64,Man,Vasa,Bli starkare,01-2024
+K0883,Morning,25-44,Man,Vasa,Rörlighet & återhämtning,02-2019
+K0884,Basic,45-64,Kvinna,Malax,Bli starkare,09-2019
+K0885,Premium,25-44,Man,Korsholm,Bygga muskler,11-2024
+K0886,Basic,45-64,Kvinna,Vasa,Bygga muskler,02-2020
+K0887,Morning,25-44,Kvinna,Vasa,Bygga muskler,08-2023
+K0888,Premium,25-44,Kvinna,Vasa,Bli starkare,12-2020
+K0889,Flex,25-44,Man,Vasa,Öka kondition,09-2019
+K0890,Basic,25-44,Kvinna,Närpes,Gå ner i vikt,08-2020
+K0891,Student,<25,Man,Vasa,Bygga muskler,02-2024
+K0892,Basic,25-44,Kvinna,Korsholm,Bygga muskler,12-2024
+K0893,Morning,45-64,Man,Vasa,Hälsa & energi,11-2024
+K0894,Premium,25-44,Man,Malax,Hälsa & energi,03-2022
+K0895,Student,<25,Man,Vasa,Hälsa & energi,09-2023
+K0896,Premium,45-64,Kvinna,Vasa,Bygga muskler,09-2020
+K0897,Basic,45-64,Kvinna,Vasa,Rörlighet & återhämtning,12-2020
+K0898,Premium,25-44,Kvinna,Vasa,Hälsa & energi,06-2025
+K0899,Basic,<25,Man,Malax,Öka kondition,02-2019
+K0900,Senior,65+,Man,Vasa,Rörlighet & återhämtning,07-2019
+K0901,Premium,25-44,Man,Korsholm,Bli starkare,09-2020
+K0902,Flex,<25,Man,Malax,Bygga muskler,03-2019
+K0903,Basic,25-44,Man,Nykarleby,Bygga muskler,03-2020
+K0904,Basic,25-44,Man,Vasa,Rörlighet & återhämtning,12-2022
+K0905,Senior,65+,Man,Vasa,Rörlighet & återhämtning,08-2021
+K0906,Premium,25-44,Kvinna,Korsholm,Rörlighet & återhämtning,06-2025
+K0907,Senior,65+,Kvinna,Korsholm,Rörlighet & återhämtning,07-2024
+K0908,Flex,45-64,Man,Korsholm,Öka kondition,06-2021
+K0909,Basic,25-44,Man,Vasa,Gå ner i vikt,09-2020
+K0910,Student,25-44,Kvinna,Vasa,Bli starkare,09-2021
+K0911,Flex,25-44,Kvinna,Vasa,Gå ner i vikt,03-2023
+K0912,Basic,25-44,Man,Vasa,Rörlighet & återhämtning,10-2020
+K0913,Senior,65+,Man,Korsholm,Bli starkare,01-2023
+K0914,Student,<25,Kvinna,Korsholm,Bygga muskler,11-2021
+K0915,Basic,25-44,Man,Korsholm,Öka kondition,09-2022
+K0916,Morning,45-64,Kvinna,Vasa,Stresshantering,02-2022
+K0917,Premium,25-44,Man,Vasa,Rörlighet & återhämtning,05-2021
+K0918,Basic,25-44,Man,Korsholm,Bli starkare,09-2025
+K0919,Premium,65+,Kvinna,Korsholm,Stresshantering,08-2024
+K0920,Senior,65+,Man,Korsholm,Öka kondition,11-2019
+K0921,Flex,45-64,Man,Vasa,Bygga muskler,02-2025
+K0922,Flex,45-64,Kvinna,Korsholm,Bli starkare,06-2022
+K0923,Flex,45-64,Kvinna,Närpes,Rörlighet & återhämtning,05-2025
+K0924,Basic,25-44,Man,Vasa,Hälsa & energi,07-2024
+K0925,Morning,25-44,Man,Vasa,Rörlighet & återhämtning,01-2022
+K0926,Basic,45-64,Man,Vasa,Gå ner i vikt,02-2019
+K0927,Morning,65+,Man,Vasa,Hälsa & energi,11-2020
+K0928,Morning,25-44,Inte angivet,Vasa,Öka kondition,11-2022
+K0929,Basic,<25,Kvinna,Vasa,Bygga muskler,04-2023
+K0930,Basic,45-64,Man,Vasa,Bli starkare,09-2020
+K0931,Basic,25-44,Man,Vasa,Hälsa & energi,11-2019
+K0932,Basic,45-64,Man,Malax,Hälsa & energi,10-2024
+K0933,Basic,25-44,Man,Närpes,Bli starkare,12-2025
+K0934,Premium,25-44,Man,Korsholm,Hälsa & energi,01-2023
+K0935,Morning,25-44,Kvinna,Vasa,Hälsa & energi,03-2020
+K0936,Basic,25-44,Man,Vasa,Bygga muskler,10-2020
+K0937,Morning,25-44,Man,Vasa,Öka kondition,02-2019
+K0938,Senior,65+,Kvinna,Vasa,Öka kondition,05-2025
+K0939,Flex,25-44,Kvinna,Vasa,Rörlighet & återhämtning,11-2019
+K0940,Flex,25-44,Kvinna,Korsholm,Öka kondition,02-2023
+K0941,Basic,45-64,Kvinna,Vasa,Hälsa & energi,10-2020
+K0942,Flex,25-44,Man,Korsholm,Öka kondition,12-2022
+K0943,Basic,45-64,Man,Vasa,Öka kondition,06-2023
+K0944,Basic,25-44,Kvinna,Korsholm,Öka kondition,10-2024
+K0945,Basic,25-44,Kvinna,Vasa,Bygga muskler,05-2020
+K0946,Basic,25-44,Man,Vasa,Gå ner i vikt,01-2019
+K0947,Flex,25-44,Man,Korsholm,Bli starkare,12-2019
+K0948,Basic,25-44,Man,Jakobstad,Gå ner i vikt,04-2025
+K0949,Basic,65+,Man,Vasa,Rörlighet & återhämtning,02-2025
+K0950,Flex,<25,Man,Vasa,Bygga muskler,03-2023
