@@ -1,0 +1,123 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Årsintäkt per medlemskap – detaljer</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    select {
+      padding: 8px;
+      font-size: 14px;
+      margin-right: 15px;
+    }
+    #info {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Årsintäkt per medlemskap (€)</h2>
+
+  <label>Kön:</label>
+  <select id="kon">
+    <option value="Alla">Alla</option>
+    <option value="Annat/okänt">Annat/okänt</option><option value="Kvinna">Kvinna</option><option value="Man">Man</option>
+  </select>
+
+  <label>Åldersgrupp:</label>
+  <select id="aldersgrupp">
+    <option value="Alla">Alla</option>
+    <option value="25–34">25–34</option><option value="35–44">35–44</option><option value="45–54">45–54</option><option value="55–64">55–64</option><option value="65+">65+</option><option value="<25"><25</option>
+  </select>
+
+  <div id="graf" style="width:100%;height:500px;margin-top:30px;"></div>
+  <div id="info"></div>
+
+  <script>
+    const data = {"Annat/ok\u00e4nt|25\u201334": {"x": ["Basic", "Morning", "Premium"], "y": [936, 696, 708]}, "Annat/ok\u00e4nt|45\u201354": {"x": ["Basic", "Flex", "Morning", "Premium"], "y": [468, 1080, 348, 1416]}, "Annat/ok\u00e4nt|55\u201364": {"x": ["Basic", "Flex", "Morning", "Premium"], "y": [468, 1080, 1044, 2124]}, "Annat/ok\u00e4nt|65+": {"x": ["Basic", "Flex", "Morning", "Premium", "Senior"], "y": [2808, 1620, 348, 2124, 768]}, "Annat/ok\u00e4nt|35\u201344": {"x": ["Premium"], "y": [1416]}, "Annat/ok\u00e4nt|<25": {"x": ["Premium", "Student"], "y": [1416, 600]}, "Kvinna|25\u201334": {"x": ["Basic", "Flex", "Morning", "Premium"], "y": [9828, 2160, 1044, 9204]}, "Kvinna|35\u201344": {"x": ["Basic", "Flex", "Morning", "Premium"], "y": [9360, 3780, 4176, 13452]}, "Kvinna|45\u201354": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [10296, 7020, 2784, 14868, 600]}, "Kvinna|55\u201364": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [11700, 2700, 1740, 11328, 600]}, "Kvinna|65+": {"x": ["Basic", "Flex", "Morning", "Premium", "Senior", "Student"], "y": [22932, 10800, 3132, 15576, 5376, 600]}, "Kvinna|<25": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [1872, 2160, 2784, 4248, 5400]}, "Man|25\u201334": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [8424, 4320, 2088, 16992, 300]}, "Man|35\u201344": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [8424, 7560, 3132, 14868, 300]}, "Man|45\u201354": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [7488, 7020, 3132, 9204, 300]}, "Man|55\u201364": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [13572, 4320, 2436, 16284, 300]}, "Man|65+": {"x": ["Basic", "Flex", "Morning", "Premium", "Senior"], "y": [18252, 7020, 4524, 16992, 5376]}, "Man|<25": {"x": ["Basic", "Flex", "Morning", "Premium", "Student"], "y": [4212, 2160, 1392, 3540, 6000]}};
+    const detailed = {"Annat/ok\u00e4nt|25\u201334": {"Basic": {"arsintakt": 936, "antal": 2}, "Morning": {"arsintakt": 696, "antal": 2}, "Premium": {"arsintakt": 708, "antal": 1}}, "Annat/ok\u00e4nt|45\u201354": {"Basic": {"arsintakt": 468, "antal": 1}, "Flex": {"arsintakt": 1080, "antal": 2}, "Morning": {"arsintakt": 348, "antal": 1}, "Premium": {"arsintakt": 1416, "antal": 2}}, "Annat/ok\u00e4nt|55\u201364": {"Basic": {"arsintakt": 468, "antal": 1}, "Flex": {"arsintakt": 1080, "antal": 2}, "Morning": {"arsintakt": 1044, "antal": 3}, "Premium": {"arsintakt": 2124, "antal": 3}}, "Annat/ok\u00e4nt|65+": {"Basic": {"arsintakt": 2808, "antal": 6}, "Flex": {"arsintakt": 1620, "antal": 3}, "Morning": {"arsintakt": 348, "antal": 1}, "Premium": {"arsintakt": 2124, "antal": 3}, "Senior": {"arsintakt": 768, "antal": 2}}, "Annat/ok\u00e4nt|35\u201344": {"Premium": {"arsintakt": 1416, "antal": 2}}, "Annat/ok\u00e4nt|<25": {"Premium": {"arsintakt": 1416, "antal": 2}, "Student": {"arsintakt": 600, "antal": 2}}, "Kvinna|25\u201334": {"Basic": {"arsintakt": 9828, "antal": 21}, "Flex": {"arsintakt": 2160, "antal": 4}, "Morning": {"arsintakt": 1044, "antal": 3}, "Premium": {"arsintakt": 9204, "antal": 13}}, "Kvinna|35\u201344": {"Basic": {"arsintakt": 9360, "antal": 20}, "Flex": {"arsintakt": 3780, "antal": 7}, "Morning": {"arsintakt": 4176, "antal": 12}, "Premium": {"arsintakt": 13452, "antal": 19}}, "Kvinna|45\u201354": {"Basic": {"arsintakt": 10296, "antal": 22}, "Flex": {"arsintakt": 7020, "antal": 13}, "Morning": {"arsintakt": 2784, "antal": 8}, "Premium": {"arsintakt": 14868, "antal": 21}, "Student": {"arsintakt": 600, "antal": 2}}, "Kvinna|55\u201364": {"Basic": {"arsintakt": 11700, "antal": 25}, "Flex": {"arsintakt": 2700, "antal": 5}, "Morning": {"arsintakt": 1740, "antal": 5}, "Premium": {"arsintakt": 11328, "antal": 16}, "Student": {"arsintakt": 600, "antal": 2}}, "Kvinna|65+": {"Basic": {"arsintakt": 22932, "antal": 49}, "Flex": {"arsintakt": 10800, "antal": 20}, "Morning": {"arsintakt": 3132, "antal": 9}, "Premium": {"arsintakt": 15576, "antal": 22}, "Senior": {"arsintakt": 5376, "antal": 14}, "Student": {"arsintakt": 600, "antal": 2}}, "Kvinna|<25": {"Basic": {"arsintakt": 1872, "antal": 4}, "Flex": {"arsintakt": 2160, "antal": 4}, "Morning": {"arsintakt": 2784, "antal": 8}, "Premium": {"arsintakt": 4248, "antal": 6}, "Student": {"arsintakt": 5400, "antal": 18}}, "Man|25\u201334": {"Basic": {"arsintakt": 8424, "antal": 18}, "Flex": {"arsintakt": 4320, "antal": 8}, "Morning": {"arsintakt": 2088, "antal": 6}, "Premium": {"arsintakt": 16992, "antal": 24}, "Student": {"arsintakt": 300, "antal": 1}}, "Man|35\u201344": {"Basic": {"arsintakt": 8424, "antal": 18}, "Flex": {"arsintakt": 7560, "antal": 14}, "Morning": {"arsintakt": 3132, "antal": 9}, "Premium": {"arsintakt": 14868, "antal": 21}, "Student": {"arsintakt": 300, "antal": 1}}, "Man|45\u201354": {"Basic": {"arsintakt": 7488, "antal": 16}, "Flex": {"arsintakt": 7020, "antal": 13}, "Morning": {"arsintakt": 3132, "antal": 9}, "Premium": {"arsintakt": 9204, "antal": 13}, "Student": {"arsintakt": 300, "antal": 1}}, "Man|55\u201364": {"Basic": {"arsintakt": 13572, "antal": 29}, "Flex": {"arsintakt": 4320, "antal": 8}, "Morning": {"arsintakt": 2436, "antal": 7}, "Premium": {"arsintakt": 16284, "antal": 23}, "Student": {"arsintakt": 300, "antal": 1}}, "Man|65+": {"Basic": {"arsintakt": 18252, "antal": 39}, "Flex": {"arsintakt": 7020, "antal": 13}, "Morning": {"arsintakt": 4524, "antal": 13}, "Premium": {"arsintakt": 16992, "antal": 24}, "Senior": {"arsintakt": 5376, "antal": 14}}, "Man|<25": {"Basic": {"arsintakt": 4212, "antal": 9}, "Flex": {"arsintakt": 2160, "antal": 4}, "Morning": {"arsintakt": 1392, "antal": 4}, "Premium": {"arsintakt": 3540, "antal": 5}, "Student": {"arsintakt": 6000, "antal": 20}}};
+    const graf = document.getElementById("graf");
+    const infobox = document.getElementById("info");
+
+    function filterData() {
+      let k = document.getElementById("kon").value;
+      let a = document.getElementById("aldersgrupp").value;
+
+      let y_vals = {};
+      let x_vals = [];
+      let custom = [];
+
+      // Summera intäkter per medlemskap
+      for (let key of Object.keys(data)) {
+        const [kk, aa] = key.split("|");
+        if ((k === "Alla" || kk === k) && (a === "Alla" || aa === a)) {
+          const obj = data[key];
+          for (let i = 0; i < obj.x.length; i++) {
+            const label = obj.x[i];
+            const val = obj.y[i];
+            if (!y_vals[label]) {
+              y_vals[label] = 0;
+            }
+            y_vals[label] += val;
+          }
+        }
+      }
+
+      // Summera antal och räkna snittintäkt per person
+      let total = 0;
+      let total_antal = 0;
+      x_vals = Object.keys(y_vals);
+      let y = [];
+      let customdata = [];
+
+      for (let m of x_vals) {
+        let sum = 0;
+        let antal = 0;
+        for (let key of Object.keys(detailed)) {
+          const [kk, aa] = key.split("|");
+          if ((k === "Alla" || kk === k) && (a === "Alla" || aa === a)) {
+            if (detailed[key][m]) {
+              sum += detailed[key][m].arsintakt;
+              antal += detailed[key][m].antal;
+            }
+          }
+        }
+        y.push(sum);
+        total += sum;
+        total_antal += antal;
+        let snitt = antal > 0 ? Math.round(sum / antal) : 0;
+        customdata.push(`Antal: ${antal}<br>Snitt/intäkt per medlem: €${snitt}`);
+      }
+
+      let totalRounded = Math.round(total / 10) * 10;
+      let manad = Math.round(totalRounded / 12);
+      let snittPerMedlem = total_antal > 0 ? Math.round(totalRounded / total_antal) : 0;
+
+      Plotly.newPlot(graf, [{
+        x: x_vals,
+        y: y,
+        type: 'bar',
+        marker: { color: '#1f77b4' },
+        customdata: customdata,
+        hovertemplate: "%{x}<br>Årsintäkt: €%{y:.0f}<br>%{customdata}<extra></extra>"
+      }], {
+        title: "Årsintäkt per medlemskap (€)",
+        xaxis: { title: "Medlemstyp" },
+        yaxis: { title: "Årsintäkt (€)" }
+      });
+
+      infobox.innerText = `Total årsintäkt: €${totalRounded.toLocaleString()}   •   Medlemmar: ${total_antal}   •   Intäkt/månad: €${manad.toLocaleString()}   •   Snitt/intäkt per medlem: €${snittPerMedlem}`;
+    }
+
+    document.getElementById("kon").addEventListener("change", filterData);
+    document.getElementById("aldersgrupp").addEventListener("change", filterData);
+    filterData();
+  </script>
+</body>
+</html>
