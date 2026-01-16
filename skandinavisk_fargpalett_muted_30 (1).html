@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skandinavisk färgpalett – Muted (30 färger)</title>
+  <style>
+    :root{
+      --bg: #F6F5F2;
+      --card: #FFFFFF;
+      --text: #1F2937;
+      --muted: #6B7280;
+      --border: rgba(31, 41, 55, 0.12);
+      --shadow: 0 10px 30px rgba(0,0,0,0.06);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body{
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: #F6F5F2;
+    }
+    header, footer{
+      max-width: 1200px;
+      margin: 40px auto 20px;
+      padding: 0 18px;
+    }
+    h1{ margin: 0 0 8px; }
+    p{ margin: 0; color: var(--muted); }
+    main{
+      max-width: 1200px;
+      margin: 20px auto 60px;
+      padding: 0 18px;
+    }
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+    .tile{
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .swatch{
+      height: 110px;
+      border-bottom: 1px solid var(--border);
+    }
+    .meta{
+      padding: 14px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+    }
+    .hex{ font-weight: 600; letter-spacing: 0.04em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Skandinavisk muted färgpalett</h1>
+    <p>30 lugna, harmoniska färger för UI, webb och presentation</p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <!-- Light neutrals -->
+      <div class="tile"><div class="swatch" style="background:#F6F5F2"></div><div class="meta"><span class="hex">#F6F5F2</span><span>Ivory Mist</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#EFEDE9"></div><div class="meta"><span class="hex">#EFEDE9</span><span>Soft Sand</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#E9E6E1"></div><div class="meta"><span class="hex">#E9E6E1</span><span>Warm Linen</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#DED9D2"></div><div class="meta"><span class="hex">#DED9D2</span><span>Pale Stone</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#D8D2C9"></div><div class="meta"><span class="hex">#D8D2C9</span><span>Stone Beige</span></div></div>
+
+      <!-- Mid neutrals -->
+      <div class="tile"><div class="swatch" style="background:#C7C1B8"></div><div class="meta"><span class="hex">#C7C1B8</span><span>Driftwood</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#B8B0A7"></div><div class="meta"><span class="hex">#B8B0A7</span><span>Mushroom Taupe</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#9E978E"></div><div class="meta"><span class="hex">#9E978E</span><span>Warm Pebble</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#857F78"></div><div class="meta"><span class="hex">#857F78</span><span>Weathered Wood</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#6B6762"></div><div class="meta"><span class="hex">#6B6762</span><span>Soft Charcoal</span></div></div>
+
+      <!-- Cool greys / blues -->
+      <div class="tile"><div class="swatch" style="background:#EEF1F3"></div><div class="meta"><span class="hex">#EEF1F3</span><span>Cold Fog</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#E7ECEF"></div><div class="meta"><span class="hex">#E7ECEF</span><span>Fog Blue</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#D6DEE3"></div><div class="meta"><span class="hex">#D6DEE3</span><span>Ice Grey</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#C9D3D7"></div><div class="meta"><span class="hex">#C9D3D7</span><span>Nordic Haze</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#AEBBC2"></div><div class="meta"><span class="hex">#AEBBC2</span><span>Harbor Mist</span></div></div>
+
+      <!-- Greens -->
+      <div class="tile"><div class="swatch" style="background:#DCE4DD"></div><div class="meta"><span class="hex">#DCE4DD</span><span>Pale Sage</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#A7B8A4"></div><div class="meta"><span class="hex">#A7B8A4</span><span>Sage Leaf</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#8FA996"></div><div class="meta"><span class="hex">#8FA996</span><span>Eucalyptus</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#6F8B7A"></div><div class="meta"><span class="hex">#6F8B7A</span><span>Forest Dust</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#5E7467"></div><div class="meta"><span class="hex">#5E7467</span><span>Moss Shade</span></div></div>
+
+      <!-- Warm accents -->
+      <div class="tile"><div class="swatch" style="background:#E3D4C7"></div><div class="meta"><span class="hex">#E3D4C7</span><span>Porcelain Clay</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#C9B7A6"></div><div class="meta"><span class="hex">#C9B7A6</span><span>Oat Latte</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#BFA08A"></div><div class="meta"><span class="hex">#BFA08A</span><span>Soft Toffee</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#B58C7B"></div><div class="meta"><span class="hex">#B58C7B</span><span>Clay Rose</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#A97A6B"></div><div class="meta"><span class="hex">#A97A6B</span><span>Earth Blush</span></div></div>
+
+      <!-- Muted rose / violet -->
+      <div class="tile"><div class="swatch" style="background:#E0C8C6"></div><div class="meta"><span class="hex">#E0C8C6</span><span>Rose Powder</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#D1A6A1"></div><div class="meta"><span class="hex">#D1A6A1</span><span>Dusty Blush</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#B9969A"></div><div class="meta"><span class="hex">#B9969A</span><span>Muted Rose</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#9B7B8F"></div><div class="meta"><span class="hex">#9B7B8F</span><span>Muted Mauve</span></div></div>
+      <div class="tile"><div class="swatch" style="background:#7E6A7A"></div><div class="meta"><span class="hex">#7E6A7A</span><span>Plum Grey</span></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>30-färgspalett inspirerad av nordiskt ljus, natur och lugna material.</p>
+  </footer>
+</body>
+</html>
