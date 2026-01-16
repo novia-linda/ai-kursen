@@ -3,19 +3,158 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8" />
-  <title>Startsida – AI Kursens Rapporter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kundrapporter – AI Kursen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f4f1;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh;
+    }
+
+    .image-side {
+      flex: 1;
+      background-image: url('https://images.pexels.com/photos/8436685/pexels-photo-8436685.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .content-side {
+      flex: 1;
+      background-color: #fefefe;
+      padding: 3rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      margin-bottom: 2rem;
+      color: #2e2e2e;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 2rem;
+    }
+
+    .number {
+      width: 48px;
+      height: 48px;
+      border: 1.8px solid #ccc;
+      border-radius: 50%;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      margin-right: 1rem;
+      flex-shrink: 0;
+    }
+
+    .step-text {
+      flex: 1;
+    }
+
+    .step-text h3 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    .step-text p {
+      margin-top: 0.25rem;
+      font-size: 0.95rem;
+    }
+
+    .step a {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.95rem;
+      text-decoration: none;
+      color: #006699;
+    }
+
+    .step a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .image-side {
+        height: 240px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>📊 Interaktiva rapporter – AI Kursen</h1>
-  <ul>
-    <li><a href="index.html">🏠 Startsida (denna sida)</a></li>
-    <li><a href="traningsrapport_kundinfo_combined.html">1) Träningsrapport per kund</a></li>
-    <li><a href="passprofil_interaktiv_manadsfilter.html">2) Träningspass – besökare</a></li>
-    <li><a href="kundrapport_alla_800_medlemmar_sorterad.html">3) Kundrapport</a></li>
-    <li><a href="bonus_per_instruktor_multiselect.html">4) Bonus per instruktör</a></li>
-    <li><a href="arsintakt_dropdown_full_tooltip_korr.html">5) Årsintäkter från medlemsavgifter</a></li>
-  </ul>
-  <p><em>GitHub Pages från repo <code>ai-kursen</code></em></p>
+  <div class="container">
+    <div class="image-side"></div>
+    <div class="content-side">
+      <h1>Rapporter – AI Kursen</h1>
+
+      <div class="step">
+        <div class="number">01</div>
+        <div class="step-text">
+          <h3>Träningsrapport per kund</h3>
+          <p>Filtrera och analysera varje medlems träningsvanor per år och aktivitet.</p>
+          <a href="traningsrapport_kundinfo_combined.html" target="_blank">Öppna rapport</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="number">02</div>
+        <div class="step-text">
+          <h3>Träningspass – besökare</h3>
+          <p>Se deltagarantal per pass och hur olika typer av aktiviteter engagerar.</p>
+          <a href="passprofil_interaktiv_manadsfilter.html" target="_blank">Visa passprofil</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="number">03</div>
+        <div class="step-text">
+          <h3>Kundrapport</h3>
+          <p>Sammanställning av 800 medlemmars träningshistorik, sorterad och klar.</p>
+          <a href="kundrapport_alla_800_medlemmar_sorterad.html" target="_blank">Granska data</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="number">04</div>
+        <div class="step-text">
+          <h3>Bonus per instruktör</h3>
+          <p>Beräkna och analysera instruktörers insatser och deras kopplade ersättning.</p>
+          <a href="bonus_per_instruktor_multiselect.html" target="_blank">Visa bonusrapport</a>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="number">05</div>
+        <div class="step-text">
+          <h3>Årsintäkter från medlemsavgifter</h3>
+          <p>Överblick av intäkter från medlemskap med möjlighet till filtrering.</p>
+          <a href="arsintakt_dropdown_full_tooltip_korr.html" target="_blank">Se årsintäkt</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
-
